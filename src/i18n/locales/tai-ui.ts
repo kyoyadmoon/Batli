@@ -71,6 +71,7 @@ export const taiUi: HelperWordSet['ui'] = {
   '不清楚時再看一次': { translation: '毋清楚的時閣看一擺' },
   '內容列表': { translation: '全部內容' },
   '授權資訊': { translation: '授權資訊' },
+  '國語授權資訊': { translation: '教育部《國語辭典簡編本》授權資訊' },
   '台語語音': { translation: '台語聲音' },
   '教育部《臺灣台語常用詞辭典》': { translation: '教育部《臺灣台語常用詞辭典》' },
   '漢字筆順': { translation: '漢字筆順' },

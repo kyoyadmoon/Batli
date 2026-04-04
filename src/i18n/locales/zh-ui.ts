@@ -71,6 +71,7 @@ export const zhUi: HelperWordSet['ui'] = {
   '不清楚時再看一次': { translation: '不清楚時可以重新播放' },
   '內容列表': { translation: '這個主題的全部內容' },
   '授權資訊': { translation: '資料來源與授權說明' },
+  '國語授權資訊': { translation: '教育部《國語辭典簡編本》授權資訊' },
   '台語語音': { translation: '台語語音' },
   '教育部《臺灣台語常用詞辭典》': { translation: '教育部《臺灣台語常用詞辭典》' },
   '漢字筆順': { translation: '漢字筆順資料' },

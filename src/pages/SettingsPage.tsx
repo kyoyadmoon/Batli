@@ -6,6 +6,7 @@ import {
   type CSSProperties,
   type KeyboardEvent as ReactKeyboardEvent,
 } from 'react';
+import { useLocation } from 'react-router-dom';
 import { NavBar } from '@/components/NavBar';
 import { getUiTextForLang, useHelperLang } from '@/i18n';
 import styles from './SettingsPage.module.css';
@@ -13,6 +14,7 @@ import styles from './SettingsPage.module.css';
 const HOLD_TO_SAVE_MS = 3000;
 
 export function SettingsPage() {
+  const location = useLocation();
   const {
     lang,
     setHelperLang,
@@ -28,6 +30,7 @@ export function SettingsPage() {
   const holdStartRef = useRef<number | null>(null);
   const holdFrameRef = useRef<number | null>(null);
   const holdResetTimerRef = useRef<number | null>(null);
+  const creditsSectionRef = useRef<HTMLElement | null>(null);
 
   const currentLangInfo = availableLanguages.find((item) => item.code === lang) ?? availableLanguages[0];
   const pendingLangInfo = availableLanguages.find((item) => item.code === pendingLang) ?? availableLanguages[0];
@@ -138,6 +141,20 @@ export function SettingsPage() {
     stopHold();
   }, [stopHold]);
 
+  useEffect(() => {
+    if (location.hash !== '#licenses') {
+      return;
+    }
+
+    const frameId = window.requestAnimationFrame(() => {
+      creditsSectionRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    });
+
+    return () => {
+      window.cancelAnimationFrame(frameId);
+    };
+  }, [location.hash]);
+
   const handleLanguageSelect = useCallback((code: typeof lang) => {
     stopHold();
     setPendingLang(code);
@@ -243,8 +260,29 @@ export function SettingsPage() {
           </div>
         </section>
 
-        <section className={styles.creditsSection}>
+        <section
+          id="licenses"
+          ref={creditsSectionRef}
+          className={styles.creditsSection}
+        >
           <h2 className={styles.creditsTitle}>{uiText('授權資訊')}</h2>
+
+          <div className={styles.creditItem}>
+            <div className={styles.creditLabel}>{uiText('國語授權資訊')}</div>
+            <div className={styles.creditBody}>
+              教育部《國語辭典簡編本》
+              <br />
+              <a
+                href="https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/dict_concised_download.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.creditLink}
+              >
+                language.moe.gov.tw
+              </a>
+              <div className={styles.creditLicense}>CC BY-ND 3.0 Taiwan</div>
+            </div>
+          </div>
 
           <div className={styles.creditItem}>
             <div className={styles.creditLabel}>{uiText('台語語音')}</div>

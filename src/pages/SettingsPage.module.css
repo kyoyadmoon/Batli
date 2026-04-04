@@ -233,6 +233,7 @@
   border-radius: 28px;
   background: linear-gradient(180deg, #fafcfd 0%, #f4f6f8 100%);
   border: 1.5px solid rgba(29, 125, 131, 0.14);
+  scroll-margin-top: calc(var(--app-header-height) + 24px);
 }
 
 .creditsTitle {
