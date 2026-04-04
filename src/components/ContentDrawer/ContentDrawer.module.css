@@ -1,0 +1,142 @@
+.backdrop {
+  position: fixed;
+  inset: 0;
+  top: var(--app-header-height);
+  z-index: 210;
+  background: rgba(0, 0, 0, 0.32);
+  animation: fadeIn 0.2s ease;
+}
+
+.drawer {
+  position: fixed;
+  top: var(--app-header-height);
+  right: 0;
+  bottom: 0;
+  z-index: 211;
+  width: min(340px, 85vw);
+  background: #fffef8;
+  border-left: 1px solid rgba(194, 146, 84, 0.18);
+  box-shadow: -4px 0 24px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  animation: slideIn 0.24s ease;
+  overflow: hidden;
+}
+
+.drawerHeader {
+  padding: var(--space-md) var(--space-lg);
+  border-bottom: 1px solid rgba(194, 146, 84, 0.14);
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex: 0 0 auto;
+}
+
+.drawerIcon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.drawerTitle {
+  font-size: clamp(1.05rem, 2vw, 1.25rem);
+  font-weight: 700;
+  color: #24565b;
+  margin: 0;
+}
+
+.drawerList {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: var(--space-sm) var(--space-md);
+  -webkit-overflow-scrolling: touch;
+}
+
+.charItem {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  width: 100%;
+  min-height: 60px;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-md);
+  border: 2px solid transparent;
+  background: transparent;
+  text-align: left;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.charItem:hover {
+  background: rgba(29, 125, 131, 0.06);
+}
+
+.charItemCurrent {
+  background: rgba(29, 125, 131, 0.1);
+  border-color: #1d7d83;
+}
+
+.charItemIndex {
+  flex: 0 0 28px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgba(194, 146, 84, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+}
+
+.charItemCurrent .charItemIndex {
+  background: #1d7d83;
+  color: #fff;
+}
+
+.charItemChar {
+  font-size: clamp(1.6rem, 3vw, 2rem);
+  font-weight: 700;
+  color: var(--color-text);
+  line-height: 1;
+}
+
+.charItemZhuyin {
+  font-size: clamp(0.85rem, 1.5vw, 1rem);
+  color: var(--color-text-muted);
+  margin-left: auto;
+}
+
+.charStepBadges {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.stepDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(194, 146, 84, 0.18);
+}
+
+.stepDotActive {
+  background: #1d7d83;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+
+@media (max-width: 420px) {
+  .drawer {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.canvas {
+  border: 3px solid #e0e0e0;
+  border-radius: var(--radius-md);
+  background-color: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  /* Prevent scrolling while drawing */
+  touch-action: none;
+}

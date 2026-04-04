@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100dvh - var(--app-header-height));
+  background-color: var(--color-bg);
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xl);
+  padding: var(--space-lg);
+  padding-bottom: calc(var(--touch-min) + var(--space-2xl));
+}
+
+.symbol {
+  font-size: var(--font-size-3xl);
+  color: var(--color-text);
+  line-height: 1;
+}
+
+.actions {
+  display: flex;
+  gap: var(--space-xl);
+}
+
+.prevButton {
+  position: fixed;
+  bottom: calc(var(--touch-min) + var(--space-xl));
+  left: var(--space-md);
+}

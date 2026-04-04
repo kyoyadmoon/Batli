@@ -1,0 +1,301 @@
+.container {
+  min-height: calc(100dvh - var(--app-header-height));
+  background:
+    radial-gradient(circle at top, rgba(237, 201, 134, 0.18) 0%, transparent 28%),
+    linear-gradient(180deg, #fff8e8 0%, #fffdf8 100%);
+}
+
+.main {
+  width: min(100%, 920px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: clamp(22px, 3vw, 30px);
+  padding: clamp(28px, 5vw, 52px) clamp(20px, 4vw, 40px) calc(var(--touch-min) + 72px);
+}
+
+.pageHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.title {
+  font-size: clamp(2.35rem, 5vw, 3.8rem);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.settingsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: clamp(22px, 3vw, 30px);
+  border-radius: 32px;
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.08) 0%, transparent 30%),
+    linear-gradient(180deg, #fffefb 0%, #fff6e8 100%);
+  border: 2px solid rgba(194, 146, 84, 0.22);
+  box-shadow: 0 18px 38px rgba(191, 130, 58, 0.12);
+}
+
+.settingsGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.settingsLabel {
+  font-size: 0.95rem;
+  font-weight: 800;
+  color: #7c5224;
+  letter-spacing: 0.02em;
+}
+
+.languageOptions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.languageOption {
+  min-height: 88px;
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 24px;
+  border: 2px solid rgba(194, 146, 84, 0.18);
+  background: rgba(255, 255, 255, 0.86);
+  color: #24565b;
+  box-shadow: 0 10px 20px rgba(194, 146, 84, 0.08);
+  transition: transform 0.12s ease, border-color 0.12s ease, background-color 0.12s ease;
+}
+
+.languageOption:active {
+  transform: scale(0.98);
+}
+
+.languageOption:focus-visible,
+.switchButton:focus-visible,
+.saveButton:focus-visible {
+  outline: 4px solid rgba(29, 125, 131, 0.24);
+  outline-offset: 3px;
+}
+
+.languageOptionName {
+  font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.languageOptionSelected {
+  border-color: #d84512;
+  background: linear-gradient(180deg, #fff5ef 0%, #fff1e5 100%);
+  color: #a22700;
+}
+
+.languageOptionCurrent {
+  box-shadow: 0 0 0 1px rgba(29, 125, 131, 0.18), 0 10px 20px rgba(194, 146, 84, 0.08);
+}
+
+.switchButton {
+  min-height: 72px;
+  padding: 16px 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  border-radius: 24px;
+  border: 2px solid rgba(29, 125, 131, 0.18);
+  background: rgba(255, 255, 255, 0.82);
+  color: #24565b;
+  box-shadow: 0 10px 20px rgba(194, 146, 84, 0.08);
+}
+
+.switchButtonOn {
+  border-color: #1d7d83;
+  background: linear-gradient(180deg, #ecfbfb 0%, #ddf4f6 100%);
+}
+
+.switchLabel {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.switchTrack {
+  position: relative;
+  width: 76px;
+  height: 42px;
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: rgba(124, 82, 36, 0.18);
+  transition: background-color 0.16s ease;
+}
+
+.switchButtonOn .switchTrack {
+  background: #1d7d83;
+}
+
+.switchThumb {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: #fffef9;
+  box-shadow: 0 6px 14px rgba(29, 30, 32, 0.16);
+  transition: transform 0.16s ease;
+}
+
+.switchButtonOn .switchThumb {
+  transform: translateX(34px);
+}
+
+.settingsFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.settingsSummary {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: rgba(74, 53, 27, 0.84);
+}
+
+.saveButton {
+  --hold-progress: 0;
+  width: 100%;
+  padding: 3px;
+  border: none;
+  border-radius: 24px;
+  background:
+    conic-gradient(
+      from 0deg,
+      #d84512 calc(var(--hold-progress) * 1turn),
+      rgba(216, 69, 18, 0.14) 0
+    );
+  box-shadow: 0 14px 28px rgba(191, 130, 58, 0.12);
+  touch-action: none;
+}
+
+.saveButton:disabled {
+  cursor: default;
+  background:
+    conic-gradient(
+      from 0deg,
+      rgba(194, 146, 84, 0.16) calc(var(--hold-progress) * 1turn),
+      rgba(194, 146, 84, 0.08) 0
+    );
+  box-shadow: none;
+}
+
+.saveButtonInner {
+  width: 100%;
+  min-height: 88px;
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border-radius: 21px;
+  background: linear-gradient(180deg, #fffefb 0%, #fff7eb 100%);
+  text-align: center;
+}
+
+.saveButtonLabel {
+  font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+  font-weight: 800;
+  color: #7b2e09;
+}
+
+.saveButtonHint {
+  font-size: 0.92rem;
+  color: rgba(74, 53, 27, 0.8);
+}
+
+.saveButtonHolding .saveButtonInner {
+  background: linear-gradient(180deg, #fff4ed 0%, #ffefdf 100%);
+}
+
+.creditsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: clamp(20px, 3vw, 28px);
+  border-radius: 28px;
+  background: linear-gradient(180deg, #fafcfd 0%, #f4f6f8 100%);
+  border: 1.5px solid rgba(29, 125, 131, 0.14);
+}
+
+.creditsTitle {
+  font-size: clamp(1.1rem, 2vw, 1.3rem);
+  font-weight: 800;
+  color: #24565b;
+  margin: 0;
+}
+
+.creditItem {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(29, 125, 131, 0.1);
+}
+
+.creditItem:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.creditLabel {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #7c5224;
+}
+
+.creditBody {
+  font-size: clamp(0.92rem, 1.5vw, 1rem);
+  color: #333;
+  line-height: 1.6;
+}
+
+.creditLink {
+  color: #1d7d83;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.creditLicense {
+  font-size: 0.82rem;
+  color: rgba(74, 53, 27, 0.7);
+  margin-top: 2px;
+}
+
+@media (max-width: 720px) {
+  .languageOptions {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    padding-inline: 14px;
+  }
+
+  .settingsSection {
+    padding: 20px 16px;
+    border-radius: 28px;
+  }
+
+  .saveButtonInner {
+    min-height: 84px;
+  }
+}

@@ -1,0 +1,241 @@
+.container {
+  min-height: calc(100dvh - var(--app-header-height));
+  background:
+    radial-gradient(circle at top, rgba(237, 201, 134, 0.28) 0%, transparent 30%),
+    linear-gradient(180deg, #fff8e7 0%, #fffdf7 100%);
+  color: #1d1712;
+}
+
+.main {
+  width: min(100%, 920px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(24px, 3vw, 32px);
+  padding: clamp(28px, 5vw, 56px) clamp(20px, 4vw, 40px) clamp(40px, 8vw, 72px);
+}
+
+.title {
+  font-size: clamp(2.5rem, 6vw, 4.7rem);
+  line-height: 1.05;
+  text-align: center;
+  letter-spacing: -0.04em;
+}
+
+.cardStack {
+  width: min(100%, 760px);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(20px, 3vw, 28px);
+}
+
+.card {
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  box-shadow: 0 24px 48px rgba(191, 130, 58, 0.16);
+}
+
+.card:focus-visible {
+  outline: 4px solid rgba(29, 125, 131, 0.24);
+  outline-offset: 4px;
+}
+
+.card:active {
+  transform: scale(0.98);
+}
+
+.primaryCard {
+  min-height: clamp(260px, 38vw, 340px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(18px, 3vw, 24px);
+  padding: clamp(28px, 4vw, 40px) clamp(24px, 4vw, 32px);
+  border-radius: 36px;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.1) 0%, transparent 32%),
+    linear-gradient(180deg, #cb3200 0%, #d84512 100%);
+  color: #fffef9;
+}
+
+.primaryIconWrap {
+  width: clamp(128px, 18vw, 176px);
+  height: clamp(128px, 18vw, 176px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  background: rgba(255, 221, 195, 0.18);
+}
+
+.primaryIcon {
+  font-size: clamp(3.8rem, 7vw, 5rem);
+}
+
+.primaryCopy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.primaryTitle {
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  line-height: 1;
+  font-weight: 800;
+}
+
+.secondaryCard {
+  min-height: clamp(164px, 24vw, 216px);
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: clamp(18px, 2vw, 24px);
+  padding: clamp(22px, 3vw, 30px);
+  border-radius: 32px;
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.08) 0%, transparent 30%),
+    linear-gradient(180deg, #116f75 0%, #1d7d83 100%);
+  color: #fffef8;
+}
+
+.secondaryIconTile {
+  width: clamp(96px, 14vw, 132px);
+  height: clamp(96px, 14vw, 132px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.16);
+}
+
+.secondaryIcon {
+  font-size: clamp(2.6rem, 4vw, 3.6rem);
+}
+
+.secondaryCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+
+.secondaryTitle {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.08;
+  font-weight: 800;
+}
+
+.secondarySubtitle {
+  font-size: clamp(1rem, 1.8vw, 1.3rem);
+  line-height: 1.25;
+  opacity: 0.95;
+}
+
+.secondaryMeta {
+  font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+  opacity: 0.82;
+}
+
+.secondaryActions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+}
+
+.secondaryArrow {
+  font-size: clamp(2rem, 3vw, 2.6rem);
+  line-height: 1;
+}
+
+.settingsCard {
+  min-height: clamp(132px, 18vw, 156px);
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: clamp(18px, 2vw, 24px);
+  padding: clamp(20px, 3vw, 26px);
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.08) 0%, transparent 30%),
+    linear-gradient(180deg, #fffefb 0%, #fff6e8 100%);
+  border: 2px solid rgba(194, 146, 84, 0.22);
+  color: #1d1712;
+}
+
+.settingsCardIconWrap {
+  width: clamp(84px, 12vw, 104px);
+  height: clamp(84px, 12vw, 104px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  background: rgba(216, 69, 18, 0.08);
+}
+
+.settingsCardIcon {
+  font-size: clamp(2.4rem, 4vw, 3rem);
+  line-height: 1;
+}
+
+.settingsCardCopy {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.settingsCardTitle {
+  font-size: clamp(1.7rem, 3vw, 2.3rem);
+  line-height: 1.1;
+  font-weight: 800;
+  color: #7b2e09;
+}
+
+.settingsCardSubtitle {
+  font-size: clamp(0.98rem, 1.7vw, 1.15rem);
+  line-height: 1.3;
+  color: rgba(74, 53, 27, 0.82);
+}
+
+@media (max-width: 720px) {
+  .primaryCard {
+    min-height: 240px;
+    border-radius: 30px;
+  }
+
+  .secondaryCard {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .settingsCard {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .secondaryActions {
+    grid-column: 1 / -1;
+    justify-content: flex-end;
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    max-width: 8ch;
+  }
+
+  .secondaryIconTile {
+    width: 88px;
+    height: 88px;
+    border-radius: 24px;
+  }
+
+  .settingsCardIconWrap {
+    width: 76px;
+    height: 76px;
+    border-radius: 20px;
+  }
+}

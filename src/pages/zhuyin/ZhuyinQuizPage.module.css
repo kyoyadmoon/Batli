@@ -1,0 +1,117 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100dvh - var(--app-header-height));
+  background-color: var(--color-bg);
+}
+
+.progress {
+  text-align: center;
+  padding: var(--space-md);
+  font-size: var(--font-size-lg);
+  color: var(--color-text-muted);
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2xl);
+  padding: var(--space-lg);
+  padding-bottom: calc(var(--touch-min) + var(--space-2xl));
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-lg);
+  width: 100%;
+  max-width: 360px;
+}
+
+.option {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--touch-xl);
+  background-color: var(--color-surface);
+  border: 3px solid var(--color-border-subtle);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  transition: transform 0.12s ease, border-color 0.2s ease;
+  cursor: pointer;
+  user-select: none;
+}
+
+.optionValue {
+  font-size: var(--font-size-2xl);
+  line-height: 1;
+}
+
+.option:active {
+  transform: scale(0.92);
+}
+
+.incorrectFlash {
+  border-color: rgba(176, 0, 32, 0.68);
+  box-shadow: 0 0 0 4px rgba(214, 53, 69, 0.12), var(--shadow-md);
+}
+
+.incorrectOverlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(214, 53, 69, 0.38);
+  pointer-events: none;
+  animation: wrongOverlayFade 0.82s ease-out;
+}
+
+.incorrectMark {
+  font-size: clamp(4.4rem, 10vw, 6rem);
+  font-weight: 900;
+  line-height: 1;
+  color: rgba(176, 0, 32, 0.92);
+  text-shadow:
+    0 0 2px rgba(255, 255, 255, 0.95),
+    0 0 8px rgba(255, 255, 255, 0.7),
+    0 8px 18px rgba(130, 13, 33, 0.22);
+  animation: wrongMarkPop 0.82s ease-out;
+}
+
+.correct {
+  border-color: var(--color-correct);
+  background-color: var(--color-success-surface);
+}
+
+@keyframes wrongOverlayFade {
+  0% {
+    opacity: 0;
+  }
+  22% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes wrongMarkPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.62);
+  }
+  30% {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+  100% {
+    opacity: 0.88;
+    transform: scale(1);
+  }
+}
