@@ -1,0 +1,4674 @@
+{
+  "一": {
+    "translation": "一",
+    "pronunciation": "it",
+    "entryId": "2",
+    "label": "一",
+    "url": "/audio/tai/一__2.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "七": {
+    "translation": "七",
+    "pronunciation": null,
+    "entryId": "40",
+    "label": "七",
+    "url": "/audio/tai/七__40.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "了": {
+    "translation": "了",
+    "pronunciation": null,
+    "entryId": "43",
+    "label": "了",
+    "url": "/audio/tai/了__43.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "了解": {
+    "translation": "了解",
+    "pronunciation": null,
+    "entryId": "22132",
+    "label": "了解",
+    "url": "/audio/tai/了解__22132.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "二": {
+    "translation": "二",
+    "pronunciation": "jī",
+    "entryId": "44",
+    "label": "二",
+    "url": "/audio/tai/二__44.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "人": {
+    "translation": "人",
+    "pronunciation": "lâng",
+    "entryId": "45",
+    "label": "人",
+    "url": "/audio/tai/人__45.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "人口": {
+    "translation": "人口",
+    "pronunciation": "jîn-kháu",
+    "entryId": "22327",
+    "label": "人口",
+    "url": "/audio/tai/人口__22327.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "入": {
+    "translation": "入",
+    "pronunciation": "ji̍p",
+    "entryId": "47",
+    "label": "入",
+    "url": "/audio/tai/入__47.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "入口": {
+    "translation": "入口",
+    "pronunciation": "ji̍p-kháu",
+    "entryId": "24004",
+    "label": "入口",
+    "url": "/audio/tai/入口__24004.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "入門": {
+    "translation": "入門",
+    "pronunciation": "ji̍p-mn̂g",
+    "entryId": "111",
+    "label": "入門",
+    "url": "/audio/tai/入門__111.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "入場": {
+    "translation": "入場",
+    "pronunciation": "ji̍p-tiûnn",
+    "entryId": "141",
+    "label": "入場",
+    "url": "/audio/tai/入場__141.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "十分": {
+    "translation": "十分",
+    "pronunciation": null,
+    "entryId": "20837",
+    "label": "十分",
+    "url": "/audio/tai/十分__20837.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "上車": {
+    "translation": "上車",
+    "pronunciation": null,
+    "entryId": "24665",
+    "label": "上車",
+    "url": "/audio/tai/上車__24665.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "上班": {
+    "translation": "上班",
+    "pronunciation": null,
+    "entryId": "22590",
+    "label": "上班",
+    "url": "/audio/tai/上班__22590.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "上網": {
+    "translation": "上網",
+    "pronunciation": null,
+    "entryId": "25427",
+    "label": "上網",
+    "url": "/audio/tai/上網__25427.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "上學": {
+    "translation": "上學",
+    "pronunciation": "siōng-ha̍k",
+    "entryId": "17847",
+    "label": "上學",
+    "url": "/audio/tai/上學__17847.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "下面": {
+    "translation": "下面",
+    "pronunciation": null,
+    "entryId": "22958",
+    "label": "下面",
+    "url": "/audio/tai/下面__22958.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "下班": {
+    "translation": "下班",
+    "pronunciation": null,
+    "entryId": "23193",
+    "label": "下班",
+    "url": "/audio/tai/下班__23193.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "也": {
+    "translation": "也",
+    "pronunciation": null,
+    "entryId": "176",
+    "label": "也",
+    "url": "/audio/tai/也__176.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "也好": {
+    "translation": "也好",
+    "pronunciation": null,
+    "entryId": "307",
+    "label": "也好",
+    "url": "/audio/tai/也好__307.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "也是": {
+    "translation": "也是",
+    "pronunciation": null,
+    "entryId": "385",
+    "label": "也是",
+    "url": "/audio/tai/也是__385.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "千萬": {
+    "translation": "千萬",
+    "pronunciation": null,
+    "entryId": "470",
+    "label": "千萬",
+    "url": "/audio/tai/千萬__470.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "口": {
+    "translation": "口",
+    "pronunciation": null,
+    "entryId": "183",
+    "label": "口",
+    "url": "/audio/tai/口__183.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "土地": {
+    "translation": "土地",
+    "pronunciation": null,
+    "entryId": "308",
+    "label": "土地",
+    "url": "/audio/tai/土地__308.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "大人": {
+    "translation": "大人",
+    "pronunciation": "tuā-lâng",
+    "entryId": "214",
+    "label": "大人",
+    "url": "/audio/tai/大人__214.mp3",
+    "via": "translation_raw_ods_and_pronunciation_exact"
+  },
+  "大地": {
+    "translation": "大地",
+    "pronunciation": null,
+    "entryId": "23438",
+    "label": "大地",
+    "url": "/audio/tai/大地__23438.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "大伯": {
+    "translation": "大伯",
+    "pronunciation": null,
+    "entryId": "313",
+    "label": "大伯",
+    "url": "/audio/tai/大伯__313.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "大姊": {
+    "translation": "大姊",
+    "pronunciation": null,
+    "entryId": "351",
+    "label": "大姊",
+    "url": "/audio/tai/大姊__351.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "大的": {
+    "translation": "大的",
+    "pronunciation": null,
+    "entryId": "14581",
+    "label": "大的",
+    "url": "/audio/tai/大的__14581.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "大門": {
+    "translation": "大門",
+    "pronunciation": "tuā-mn̂g",
+    "entryId": "23440",
+    "label": "大門",
+    "url": "/audio/tai/大門__23440.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "大雨": {
+    "translation": "大雨",
+    "pronunciation": "tuā-hōo",
+    "entryId": "24404",
+    "label": "大雨",
+    "url": "/audio/tai/大雨__24404.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "大姨": {
+    "translation": "大姨",
+    "pronunciation": null,
+    "entryId": "378",
+    "label": "大姨",
+    "url": "/audio/tai/大姨__378.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "大哥": {
+    "translation": "大哥",
+    "pronunciation": null,
+    "entryId": "405",
+    "label": "大哥",
+    "url": "/audio/tai/大哥__405.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "大家": {
+    "translation": "逐家",
+    "pronunciation": "ta̍k-ke",
+    "entryId": "7947",
+    "label": "逐家",
+    "url": "/audio/tai/大家__7947.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "大象": {
+    "translation": "象",
+    "pronunciation": "tshiūnn",
+    "entryId": "9033",
+    "label": "象",
+    "url": "/audio/tai/大象__9033.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "大舅": {
+    "translation": "大舅",
+    "pronunciation": null,
+    "entryId": "472",
+    "label": "大舅",
+    "url": "/audio/tai/大舅__472.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "大腿": {
+    "translation": "大腿",
+    "pronunciation": null,
+    "entryId": "499",
+    "label": "大腿",
+    "url": "/audio/tai/大腿__499.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "大橋": {
+    "translation": "大橋",
+    "pronunciation": null,
+    "entryId": "28073",
+    "label": "大橋",
+    "url": "/audio/tai/大橋__28073.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "女人": {
+    "translation": "女人",
+    "pronunciation": null,
+    "entryId": "22247",
+    "label": "女人",
+    "url": "/audio/tai/女人__22247.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "女士": {
+    "translation": "女士",
+    "pronunciation": null,
+    "entryId": "23049",
+    "label": "女士",
+    "url": "/audio/tai/女士__23049.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "小": {
+    "translation": "細",
+    "pronunciation": "sè",
+    "entryId": "7720",
+    "label": "細",
+    "url": "/audio/tai/小__7720.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "小心": {
+    "translation": "細膩",
+    "pronunciation": "sè-jī",
+    "entryId": "7772",
+    "label": "細膩",
+    "url": "/audio/tai/小心__7772.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "小白菜": {
+    "translation": "小白菜",
+    "pronunciation": "sió-pe̍h-tshài",
+    "entryId": "296",
+    "label": "小白菜",
+    "url": "/audio/tai/小白菜__296.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "小弟": {
+    "translation": "小弟",
+    "pronunciation": null,
+    "entryId": "320",
+    "label": "小弟",
+    "url": "/audio/tai/小弟__320.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "小叔": {
+    "translation": "小叔",
+    "pronunciation": null,
+    "entryId": "344",
+    "label": "小叔",
+    "url": "/audio/tai/小叔__344.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "小妹": {
+    "translation": "小妹",
+    "pronunciation": null,
+    "entryId": "353",
+    "label": "小妹",
+    "url": "/audio/tai/小妹__353.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "小狗": {
+    "translation": "狗仔",
+    "pronunciation": "káu-á",
+    "entryId": "4337",
+    "label": "狗仔",
+    "url": "/audio/tai/小狗__4337.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "小孩": {
+    "translation": "囡仔",
+    "pronunciation": "gín-á",
+    "entryId": "2142",
+    "label": "囡仔",
+    "url": "/audio/tai/小孩__2142.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "小鳥": {
+    "translation": "鳥仔",
+    "pronunciation": "tsiáu-á",
+    "entryId": "8093",
+    "label": "鳥仔",
+    "url": "/audio/tai/小鳥__8093.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "小貓": {
+    "translation": "貓仔",
+    "pronunciation": "niau-á",
+    "entryId": "11915",
+    "label": "貓仔",
+    "url": "/audio/tai/小貓__11915.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "工人": {
+    "translation": "工人",
+    "pronunciation": "kang-lâng",
+    "entryId": "218",
+    "label": "工人",
+    "url": "/audio/tai/工人__218.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "工地": {
+    "translation": "工地",
+    "pronunciation": null,
+    "entryId": "24677",
+    "label": "工地",
+    "url": "/audio/tai/工地__24677.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "工廠": {
+    "translation": "工廠",
+    "pronunciation": null,
+    "entryId": "509",
+    "label": "工廠",
+    "url": "/audio/tai/工廠__509.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "不": {
+    "translation": "不",
+    "pronunciation": null,
+    "entryId": "557",
+    "label": "不",
+    "url": "/audio/tai/不__557.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "不可": {
+    "translation": "不可",
+    "pronunciation": null,
+    "entryId": "22198",
+    "label": "不可",
+    "url": "/audio/tai/不可__22198.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "中午": {
+    "translation": "中晝",
+    "pronunciation": "tiong-tàu",
+    "entryId": "713",
+    "label": "中晝",
+    "url": "/audio/tai/中午__713.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "中心": {
+    "translation": "中心",
+    "pronunciation": "tiong-sim",
+    "entryId": "612",
+    "label": "中心",
+    "url": "/audio/tai/中心__612.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "中用": {
+    "translation": "中用",
+    "pronunciation": null,
+    "entryId": "638",
+    "label": "中用",
+    "url": "/audio/tai/中用__638.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "中秋": {
+    "translation": "中秋",
+    "pronunciation": "tiong-tshiu",
+    "entryId": "682",
+    "label": "中秋",
+    "url": "/audio/tai/中秋__682.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "中間": {
+    "translation": "中間",
+    "pronunciation": "tiong-kan",
+    "entryId": "732",
+    "label": "中間",
+    "url": "/audio/tai/中間__732.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "中醫": {
+    "translation": "中醫",
+    "pronunciation": "tiong-i",
+    "entryId": "766",
+    "label": "中醫",
+    "url": "/audio/tai/中醫__766.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "今": {
+    "translation": "今",
+    "pronunciation": "kin",
+    "entryId": "572",
+    "label": "今【替】",
+    "url": "/audio/tai/今__572.mp3",
+    "via": "translation_lookup_ods_exact"
+  },
+  "今天": {
+    "translation": "今仔日",
+    "pronunciation": "kin-á-ji̍t",
+    "entryId": "629",
+    "label": "今仔日",
+    "url": "/audio/tai/今天__629.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "今日": {
+    "translation": "今仔日",
+    "pronunciation": "kin-á-ji̍t",
+    "entryId": "629",
+    "label": "今仔日",
+    "url": "/audio/tai/今日__629.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "今年": {
+    "translation": "今年",
+    "pronunciation": "kin-nî",
+    "entryId": "647",
+    "label": "今年",
+    "url": "/audio/tai/今年__647.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "元": {
+    "translation": "箍",
+    "pronunciation": "khoo",
+    "entryId": "10682",
+    "label": "箍",
+    "url": "/audio/tai/元__10682.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "公司": {
+    "translation": "公司",
+    "pronunciation": "kong-si",
+    "entryId": "22101",
+    "label": "公司",
+    "url": "/audio/tai/公司__22101.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "公共": {
+    "translation": "公共",
+    "pronunciation": "kong-kiōng",
+    "entryId": "645",
+    "label": "公共",
+    "url": "/audio/tai/公共__645.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "公車": {
+    "translation": "公車",
+    "pronunciation": "kong-tshia",
+    "entryId": "23445",
+    "label": "公車",
+    "url": "/audio/tai/公車__23445.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "公所": {
+    "translation": "公所",
+    "pronunciation": null,
+    "entryId": "666",
+    "label": "公所",
+    "url": "/audio/tai/公所__666.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "公寓": {
+    "translation": "公寓",
+    "pronunciation": "kong-gū",
+    "entryId": "723",
+    "label": "公寓",
+    "url": "/audio/tai/公寓__723.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "公園": {
+    "translation": "公園",
+    "pronunciation": "kong-hn̂g",
+    "entryId": "739",
+    "label": "公園",
+    "url": "/audio/tai/公園__739.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "分數": {
+    "translation": "分數",
+    "pronunciation": null,
+    "entryId": "758",
+    "label": "分數",
+    "url": "/audio/tai/分數__758.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "分鐘": {
+    "translation": "分鐘",
+    "pronunciation": null,
+    "entryId": "768",
+    "label": "分鐘",
+    "url": "/audio/tai/分鐘__768.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "天氣": {
+    "translation": "天氣",
+    "pronunciation": null,
+    "entryId": "1028",
+    "label": "天氣",
+    "url": "/audio/tai/天氣__1028.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "天窗": {
+    "translation": "天窗",
+    "pronunciation": null,
+    "entryId": "1081",
+    "label": "天窗",
+    "url": "/audio/tai/天窗__1081.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "天橋": {
+    "translation": "天橋",
+    "pronunciation": null,
+    "entryId": "1157",
+    "label": "天橋",
+    "url": "/audio/tai/天橋__1157.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "天鵝": {
+    "translation": "天鵝",
+    "pronunciation": null,
+    "entryId": "25001",
+    "label": "天鵝",
+    "url": "/audio/tai/天鵝__25001.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "引起": {
+    "translation": "引起",
+    "pronunciation": null,
+    "entryId": "1040",
+    "label": "引起",
+    "url": "/audio/tai/引起__1040.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "心": {
+    "translation": "心",
+    "pronunciation": null,
+    "entryId": "792",
+    "label": "心",
+    "url": "/audio/tai/心__792.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "手": {
+    "translation": "手",
+    "pronunciation": "tshiú",
+    "entryId": "794",
+    "label": "手",
+    "url": "/audio/tai/手__794.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "手帕": {
+    "translation": "手巾仔",
+    "pronunciation": "tshiú-kun-á",
+    "entryId": "833",
+    "label": "手巾仔",
+    "url": "/audio/tai/手帕__833.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "手套": {
+    "translation": "手套",
+    "pronunciation": "tshiú-thò",
+    "entryId": "26037",
+    "label": "手套",
+    "url": "/audio/tai/手套__26037.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "手機": {
+    "translation": "手機仔",
+    "pronunciation": "tshiú-ki-á",
+    "entryId": "1161",
+    "label": "手機仔",
+    "url": "/audio/tai/手機__1161.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "手錶": {
+    "translation": "手錶",
+    "pronunciation": null,
+    "entryId": "26038",
+    "label": "手錶",
+    "url": "/audio/tai/手錶__26038.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "日": {
+    "translation": "日",
+    "pronunciation": "ji̍t",
+    "entryId": "801",
+    "label": "日",
+    "url": "/audio/tai/日__801.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "日出": {
+    "translation": "日出",
+    "pronunciation": "ji̍t-tshut",
+    "entryId": "24199",
+    "label": "日出",
+    "url": "/audio/tai/日出__24199.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "日期": {
+    "translation": "日期",
+    "pronunciation": "ji̍t-kî",
+    "entryId": "1074",
+    "label": "日期",
+    "url": "/audio/tai/日期__1074.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "月台": {
+    "translation": "月台",
+    "pronunciation": "gue̍h-tâi",
+    "entryId": "24426",
+    "label": "月台",
+    "url": "/audio/tai/月台__24426.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "月底": {
+    "translation": "月底",
+    "pronunciation": "gue̍h-té",
+    "entryId": "17925",
+    "label": "月底",
+    "url": "/audio/tai/月底__17925.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "月亮": {
+    "translation": "月娘",
+    "pronunciation": "gue̍h-niû",
+    "entryId": "1012",
+    "label": "月娘",
+    "url": "/audio/tai/月亮__1012.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "月餅": {
+    "translation": "月餅",
+    "pronunciation": "gue̍h-piánn",
+    "entryId": "1142",
+    "label": "月餅",
+    "url": "/audio/tai/月餅__1142.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "毛筆": {
+    "translation": "毛筆",
+    "pronunciation": null,
+    "entryId": "26043",
+    "label": "毛筆",
+    "url": "/audio/tai/毛筆__26043.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "毛蟹": {
+    "translation": "毛蟹",
+    "pronunciation": null,
+    "entryId": "1197",
+    "label": "毛蟹",
+    "url": "/audio/tai/毛蟹__1197.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "水果": {
+    "translation": "水果",
+    "pronunciation": null,
+    "entryId": "966",
+    "label": "水果",
+    "url": "/audio/tai/水果__966.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "水缸": {
+    "translation": "水缸",
+    "pronunciation": null,
+    "entryId": "26795",
+    "label": "水缸",
+    "url": "/audio/tai/水缸__26795.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "水桶": {
+    "translation": "水桶",
+    "pronunciation": null,
+    "entryId": "17946",
+    "label": "水桶",
+    "url": "/audio/tai/水桶__17946.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "火車": {
+    "translation": "火車",
+    "pronunciation": "hué-tshia",
+    "entryId": "1242",
+    "label": "火車",
+    "url": "/audio/tai/火車__1242.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "火鍋": {
+    "translation": "火鍋",
+    "pronunciation": null,
+    "entryId": "1288",
+    "label": "火鍋",
+    "url": "/audio/tai/火鍋__1288.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "牙": {
+    "translation": "齒",
+    "pronunciation": "khí",
+    "entryId": "11570",
+    "label": "齒",
+    "url": "/audio/tai/牙__11570.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "牙膏": {
+    "translation": "齒膏",
+    "pronunciation": "khí-ko",
+    "entryId": "11585",
+    "label": "齒膏",
+    "url": "/audio/tai/牙膏__11585.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "牙齒": {
+    "translation": "齒",
+    "pronunciation": "khí",
+    "entryId": "11570",
+    "label": "齒",
+    "url": "/audio/tai/牙齒__11570.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "牙醫": {
+    "translation": "齒科",
+    "pronunciation": "khí-kho",
+    "entryId": "11581",
+    "label": "齒科",
+    "url": "/audio/tai/牙醫__11581.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "牛": {
+    "translation": "牛",
+    "pronunciation": "gû",
+    "entryId": "1218",
+    "label": "牛",
+    "url": "/audio/tai/牛__1218.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "牛奶": {
+    "translation": "牛奶",
+    "pronunciation": "gû-ling",
+    "entryId": "1228",
+    "label": "牛奶",
+    "url": "/audio/tai/牛奶__1228.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "牛肉": {
+    "translation": "牛肉",
+    "pronunciation": "gû-bah",
+    "entryId": "22747",
+    "label": "牛肉",
+    "url": "/audio/tai/牛肉__22747.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "主要": {
+    "translation": "主要",
+    "pronunciation": null,
+    "entryId": "1347",
+    "label": "主要",
+    "url": "/audio/tai/主要__1347.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "兄弟": {
+    "translation": "兄弟",
+    "pronunciation": null,
+    "entryId": "1325",
+    "label": "兄弟",
+    "url": "/audio/tai/兄弟__1325.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "出": {
+    "translation": "出",
+    "pronunciation": "tshut",
+    "entryId": "1378",
+    "label": "出",
+    "url": "/audio/tai/出__1378.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "出口": {
+    "translation": "出口",
+    "pronunciation": "tshut-kháu",
+    "entryId": "1418",
+    "label": "出口",
+    "url": "/audio/tai/出口__1418.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "出去": {
+    "translation": "出去",
+    "pronunciation": "tshut-khì",
+    "entryId": "22551",
+    "label": "出去",
+    "url": "/audio/tai/出去__22551.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "出門": {
+    "translation": "出門",
+    "pronunciation": "tshut-mn̂g",
+    "entryId": "1490",
+    "label": "出門",
+    "url": "/audio/tai/出門__1490.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "出院": {
+    "translation": "出院",
+    "pronunciation": "tshut-īnn",
+    "entryId": "23120",
+    "label": "出院",
+    "url": "/audio/tai/出院__23120.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "出發": {
+    "translation": "出發",
+    "pronunciation": "tshut-huat",
+    "entryId": "22552",
+    "label": "出發",
+    "url": "/audio/tai/出發__22552.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "加油": {
+    "translation": "加油",
+    "pronunciation": null,
+    "entryId": "23855",
+    "label": "加油",
+    "url": "/audio/tai/加油__23855.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "北": {
+    "translation": "北",
+    "pronunciation": "pak",
+    "entryId": "1385",
+    "label": "北",
+    "url": "/audio/tai/北__1385.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "北區": {
+    "translation": "北區",
+    "pronunciation": "pak-khu",
+    "entryId": "24205",
+    "label": "北區",
+    "url": "/audio/tai/北區__24205.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "去": {
+    "translation": "去",
+    "pronunciation": null,
+    "entryId": "1395",
+    "label": "去",
+    "url": "/audio/tai/去__1395.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "去年": {
+    "translation": "舊年",
+    "pronunciation": "kū-nî",
+    "entryId": "12556",
+    "label": "舊年",
+    "url": "/audio/tai/去年__12556.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "去除": {
+    "translation": "去除",
+    "pronunciation": null,
+    "entryId": "23856",
+    "label": "去除",
+    "url": "/audio/tai/去除__23856.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "可": {
+    "translation": "可",
+    "pronunciation": null,
+    "entryId": "1405",
+    "label": "可",
+    "url": "/audio/tai/可__1405.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "可以": {
+    "translation": "可以",
+    "pronunciation": null,
+    "entryId": "22098",
+    "label": "可以",
+    "url": "/audio/tai/可以__22098.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "可怕": {
+    "translation": "可怕",
+    "pronunciation": null,
+    "entryId": "1482",
+    "label": "可怕",
+    "url": "/audio/tai/可怕__1482.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "可能": {
+    "translation": "可能",
+    "pronunciation": null,
+    "entryId": "1522",
+    "label": "可能",
+    "url": "/audio/tai/可能__1522.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "可惜": {
+    "translation": "可惜",
+    "pronunciation": null,
+    "entryId": "1531",
+    "label": "可惜",
+    "url": "/audio/tai/可惜__1531.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "可愛": {
+    "translation": "可愛",
+    "pronunciation": null,
+    "entryId": "1567",
+    "label": "可愛",
+    "url": "/audio/tai/可愛__1567.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "台": {
+    "translation": "台",
+    "pronunciation": "Tâi",
+    "entryId": "1406",
+    "label": "台",
+    "url": "/audio/tai/台__1406.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "外來": {
+    "translation": "外來",
+    "pronunciation": null,
+    "entryId": "23574",
+    "label": "外來",
+    "url": "/audio/tai/外來__23574.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "外孫": {
+    "translation": "外孫",
+    "pronunciation": null,
+    "entryId": "1512",
+    "label": "外孫",
+    "url": "/audio/tai/外孫__1512.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "奶茶": {
+    "translation": "奶茶",
+    "pronunciation": "ling-tê",
+    "entryId": "25527",
+    "label": "奶茶",
+    "url": "/audio/tai/奶茶__25527.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "市": {
+    "translation": "市",
+    "pronunciation": "tshī",
+    "entryId": "1641",
+    "label": "市",
+    "url": "/audio/tai/市__1641.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "市民": {
+    "translation": "市民",
+    "pronunciation": "tshī-bîn",
+    "entryId": "1689",
+    "label": "市民",
+    "url": "/audio/tai/市民__1689.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "市區": {
+    "translation": "市區",
+    "pronunciation": "tshī-khu",
+    "entryId": "23056",
+    "label": "市區",
+    "url": "/audio/tai/市區__23056.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "市場": {
+    "translation": "市場",
+    "pronunciation": "tshī-tiûnn",
+    "entryId": "1772",
+    "label": "市場",
+    "url": "/audio/tai/市場__1772.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "平等": {
+    "translation": "平等",
+    "pronunciation": null,
+    "entryId": "1779",
+    "label": "平等",
+    "url": "/audio/tai/平等__1779.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "未來": {
+    "translation": "未來",
+    "pronunciation": null,
+    "entryId": "1717",
+    "label": "未來",
+    "url": "/audio/tai/未來__1717.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "本來": {
+    "translation": "本來",
+    "pronunciation": null,
+    "entryId": "1719",
+    "label": "本來",
+    "url": "/audio/tai/本來__1719.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "生日": {
+    "translation": "生日",
+    "pronunciation": "senn-ji̍t",
+    "entryId": "1869",
+    "label": "生日",
+    "url": "/audio/tai/生日__1869.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "用心": {
+    "translation": "用心",
+    "pronunciation": null,
+    "entryId": "1870",
+    "label": "用心",
+    "url": "/audio/tai/用心__1870.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "用功": {
+    "translation": "用功",
+    "pronunciation": null,
+    "entryId": "1877",
+    "label": "用功",
+    "url": "/audio/tai/用功__1877.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "甲板": {
+    "translation": "甲板",
+    "pronunciation": null,
+    "entryId": "23004",
+    "label": "甲板",
+    "url": "/audio/tai/甲板__23004.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "白飯": {
+    "translation": "白飯",
+    "pronunciation": "pe̍h-pn̄g",
+    "entryId": "1970",
+    "label": "白飯",
+    "url": "/audio/tai/白飯__1970.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "白糖": {
+    "translation": "白糖",
+    "pronunciation": null,
+    "entryId": "2011",
+    "label": "白糖",
+    "url": "/audio/tai/白糖__2011.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "目鏡": {
+    "translation": "目鏡",
+    "pronunciation": null,
+    "entryId": "2024",
+    "label": "目鏡",
+    "url": "/audio/tai/目鏡__2024.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "石板": {
+    "translation": "石板",
+    "pronunciation": null,
+    "entryId": "23203",
+    "label": "石板",
+    "url": "/audio/tai/石板__23203.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "休": {
+    "translation": "休",
+    "pronunciation": null,
+    "entryId": "2049",
+    "label": "休",
+    "url": "/audio/tai/休__2049.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "休息": {
+    "translation": "休息",
+    "pronunciation": null,
+    "entryId": "2071",
+    "label": "休息",
+    "url": "/audio/tai/休息__2071.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "休閒": {
+    "translation": "休閒",
+    "pronunciation": null,
+    "entryId": "22355",
+    "label": "休閒",
+    "url": "/audio/tai/休閒__22355.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "休學": {
+    "translation": "休學",
+    "pronunciation": null,
+    "entryId": "2093",
+    "label": "休學",
+    "url": "/audio/tai/休學__2093.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "再會": {
+    "translation": "再會",
+    "pronunciation": null,
+    "entryId": "2232",
+    "label": "再會",
+    "url": "/audio/tai/再會__2232.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "冰": {
+    "translation": "冰",
+    "pronunciation": "ping",
+    "entryId": "2103",
+    "label": "冰",
+    "url": "/audio/tai/冰__2103.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "冰箱": {
+    "translation": "冰箱",
+    "pronunciation": "ping-siunn",
+    "entryId": "2247",
+    "label": "冰箱",
+    "url": "/audio/tai/冰箱__2247.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "吃菜": {
+    "translation": "食菜",
+    "pronunciation": "tsia̍h-tshài",
+    "entryId": "5643",
+    "label": "食菜",
+    "url": "/audio/tai/吃菜__5643.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "回": {
+    "translation": "回",
+    "pronunciation": null,
+    "entryId": "2125",
+    "label": "回",
+    "url": "/audio/tai/回__2125.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "回收": {
+    "translation": "回收",
+    "pronunciation": null,
+    "entryId": "23207",
+    "label": "回收",
+    "url": "/audio/tai/回收__23207.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "回答": {
+    "translation": "回答",
+    "pronunciation": null,
+    "entryId": "2227",
+    "label": "回答",
+    "url": "/audio/tai/回答__2227.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "回診": {
+    "translation": "回診",
+    "pronunciation": null,
+    "entryId": "28685",
+    "label": "回診",
+    "url": "/audio/tai/回診__28685.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "在": {
+    "translation": "在",
+    "pronunciation": null,
+    "entryId": "2128",
+    "label": "在",
+    "url": "/audio/tai/在__2128.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "在外": {
+    "translation": "在外",
+    "pronunciation": null,
+    "entryId": "28914",
+    "label": "在外",
+    "url": "/audio/tai/在外__28914.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "在地": {
+    "translation": "在地",
+    "pronunciation": null,
+    "entryId": "2162",
+    "label": "在地",
+    "url": "/audio/tai/在地__2162.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "地": {
+    "translation": "地",
+    "pronunciation": null,
+    "entryId": "2268",
+    "label": "地",
+    "url": "/audio/tai/地__2268.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "地板": {
+    "translation": "地板",
+    "pronunciation": null,
+    "entryId": "23370",
+    "label": "地板",
+    "url": "/audio/tai/地板__23370.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "好看": {
+    "translation": "好看",
+    "pronunciation": "hó-khuànn",
+    "entryId": "2345",
+    "label": "好看",
+    "url": "/audio/tai/好看__2345.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "好聽": {
+    "translation": "好聽",
+    "pronunciation": null,
+    "entryId": "25056",
+    "label": "好聽",
+    "url": "/audio/tai/好聽__25056.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "帆船": {
+    "translation": "帆船",
+    "pronunciation": null,
+    "entryId": "2367",
+    "label": "帆船",
+    "url": "/audio/tai/帆船__2367.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "年糕": {
+    "translation": "甜粿",
+    "pronunciation": "tinn-kué",
+    "entryId": "7676",
+    "label": "甜粿",
+    "url": "/audio/tai/年糕__7676.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "成就": {
+    "translation": "成就",
+    "pronunciation": null,
+    "entryId": "2528",
+    "label": "成就",
+    "url": "/audio/tai/成就__2528.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "收聽": {
+    "translation": "收聽",
+    "pronunciation": null,
+    "entryId": "23458",
+    "label": "收聽",
+    "url": "/audio/tai/收聽__23458.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "早起": {
+    "translation": "早起",
+    "pronunciation": null,
+    "entryId": "2517",
+    "label": "早起",
+    "url": "/audio/tai/早起__2517.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "曲線": {
+    "translation": "曲線",
+    "pronunciation": null,
+    "entryId": "23211",
+    "label": "曲線",
+    "url": "/audio/tai/曲線__23211.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "有心": {
+    "translation": "有心",
+    "pronunciation": null,
+    "entryId": "23374",
+    "label": "有心",
+    "url": "/audio/tai/有心__23374.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "有名": {
+    "translation": "有名",
+    "pronunciation": null,
+    "entryId": "2471",
+    "label": "有名",
+    "url": "/audio/tai/有名__2471.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "百": {
+    "translation": "百",
+    "pronunciation": "pah",
+    "entryId": "2585",
+    "label": "百",
+    "url": "/audio/tai/百__2585.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "百貨": {
+    "translation": "百貨",
+    "pronunciation": "pah-huè",
+    "entryId": "2730",
+    "label": "百貨",
+    "url": "/audio/tai/百貨__2730.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "百貨公司": {
+    "translation": "百貨公司",
+    "pronunciation": "pah-huè-kong-si",
+    "entryId": "2731",
+    "label": "百貨公司",
+    "url": "/audio/tai/百貨公司__2731.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "百萬": {
+    "translation": "百萬",
+    "pronunciation": null,
+    "entryId": "2761",
+    "label": "百萬",
+    "url": "/audio/tai/百萬__2761.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "羊": {
+    "translation": "羊",
+    "pronunciation": "iûnn",
+    "entryId": "2588",
+    "label": "羊",
+    "url": "/audio/tai/羊__2588.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "老板": {
+    "translation": "老板",
+    "pronunciation": null,
+    "entryId": "2677",
+    "label": "老板",
+    "url": "/audio/tai/老板__2677.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "肉": {
+    "translation": "肉",
+    "pronunciation": "bah",
+    "entryId": "2596",
+    "label": "肉",
+    "url": "/audio/tai/肉__2596.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "肉包": {
+    "translation": "肉包",
+    "pronunciation": "bah-pau",
+    "entryId": "2638",
+    "label": "肉包",
+    "url": "/audio/tai/肉包__2638.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "行": {
+    "translation": "行",
+    "pronunciation": "hâng",
+    "entryId": "2605",
+    "label": "行",
+    "url": "/audio/tai/行__2605.mp3",
+    "via": "translation_raw_ods_and_pronunciation_exact"
+  },
+  "行李": {
+    "translation": "行李",
+    "pronunciation": "hîng-lí",
+    "entryId": "2660",
+    "label": "行李",
+    "url": "/audio/tai/行李__2660.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "行走": {
+    "translation": "行路",
+    "pronunciation": "kiânn-lōo",
+    "entryId": "2767",
+    "label": "行路",
+    "url": "/audio/tai/行走__2767.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "行程": {
+    "translation": "行程",
+    "pronunciation": "hîng-tîng",
+    "entryId": "22456",
+    "label": "行程",
+    "url": "/audio/tai/行程__22456.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "行號": {
+    "translation": "行號",
+    "pronunciation": "hâng-hō",
+    "entryId": "28659",
+    "label": "行號",
+    "url": "/audio/tai/行號__28659.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "衣": {
+    "translation": "衫",
+    "pronunciation": "sann",
+    "entryId": "5490",
+    "label": "衫",
+    "url": "/audio/tai/衣__5490.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "西方": {
+    "translation": "西方",
+    "pronunciation": null,
+    "entryId": "2835",
+    "label": "西方",
+    "url": "/audio/tai/西方__2835.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "西瓜": {
+    "translation": "西瓜",
+    "pronunciation": null,
+    "entryId": "2839",
+    "label": "西瓜",
+    "url": "/audio/tai/西瓜__2839.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "伯": {
+    "translation": "伯",
+    "pronunciation": null,
+    "entryId": "2852",
+    "label": "伯",
+    "url": "/audio/tai/伯__2852.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "但是": {
+    "translation": "但是",
+    "pronunciation": null,
+    "entryId": "2912",
+    "label": "但是",
+    "url": "/audio/tai/但是__2912.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "住所": {
+    "translation": "住所",
+    "pronunciation": null,
+    "entryId": "2899",
+    "label": "住所",
+    "url": "/audio/tai/住所__2899.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "你": {
+    "translation": "你",
+    "pronunciation": null,
+    "entryId": "2868",
+    "label": "你【替】",
+    "url": "/audio/tai/你__2868.mp3",
+    "via": "translation_lookup_ods_exact"
+  },
+  "冷": {
+    "translation": "冷",
+    "pronunciation": "líng",
+    "entryId": "2874",
+    "label": "冷",
+    "url": "/audio/tai/冷__2874.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "冷天": {
+    "translation": "寒天",
+    "pronunciation": "kuânn-thinn",
+    "entryId": "8300",
+    "label": "寒天",
+    "url": "/audio/tai/冷天__8300.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "冷水": {
+    "translation": "冷水",
+    "pronunciation": "líng-tsuí",
+    "entryId": "25073",
+    "label": "冷水",
+    "url": "/audio/tai/冷水__25073.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "冷氣": {
+    "translation": "冷氣",
+    "pronunciation": "líng-khì",
+    "entryId": "2916",
+    "label": "冷氣",
+    "url": "/audio/tai/冷氣__2916.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "坐": {
+    "translation": "坐",
+    "pronunciation": null,
+    "entryId": "3022",
+    "label": "坐",
+    "url": "/audio/tai/坐__3022.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "坐位": {
+    "translation": "坐位",
+    "pronunciation": null,
+    "entryId": "3031",
+    "label": "坐位",
+    "url": "/audio/tai/坐位__3031.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "局": {
+    "translation": "局",
+    "pronunciation": null,
+    "entryId": "3058",
+    "label": "局",
+    "url": "/audio/tai/局__3058.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "局長": {
+    "translation": "局長",
+    "pronunciation": null,
+    "entryId": "23292",
+    "label": "局長",
+    "url": "/audio/tai/局長__23292.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "快": {
+    "translation": "快",
+    "pronunciation": null,
+    "entryId": "3138",
+    "label": "快",
+    "url": "/audio/tai/快__3138.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "快樂": {
+    "translation": "快樂",
+    "pronunciation": null,
+    "entryId": "22353",
+    "label": "快樂",
+    "url": "/audio/tai/快樂__22353.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "找": {
+    "translation": "找",
+    "pronunciation": null,
+    "entryId": "3196",
+    "label": "找",
+    "url": "/audio/tai/找__3196.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "找錢": {
+    "translation": "找錢",
+    "pronunciation": "tshuē-tsînn",
+    "entryId": "3264",
+    "label": "找錢",
+    "url": "/audio/tai/找錢__3264.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "村": {
+    "translation": "村",
+    "pronunciation": null,
+    "entryId": "3220",
+    "label": "村",
+    "url": "/audio/tai/村__3220.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "村民": {
+    "translation": "村民",
+    "pronunciation": null,
+    "entryId": "23461",
+    "label": "村民",
+    "url": "/audio/tai/村民__23461.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "沙": {
+    "translation": "沙",
+    "pronunciation": null,
+    "entryId": "3287",
+    "label": "沙",
+    "url": "/audio/tai/沙__3287.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "沙拉油": {
+    "translation": "沙拉油",
+    "pronunciation": null,
+    "entryId": "3303",
+    "label": "沙拉油",
+    "url": "/audio/tai/沙拉油__3303.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "沙茶": {
+    "translation": "沙茶",
+    "pronunciation": null,
+    "entryId": "3313",
+    "label": "沙茶",
+    "url": "/audio/tai/沙茶__3313.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "沙漠": {
+    "translation": "沙漠",
+    "pronunciation": null,
+    "entryId": "3320",
+    "label": "沙漠",
+    "url": "/audio/tai/沙漠__3320.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "男": {
+    "translation": "男",
+    "pronunciation": null,
+    "entryId": "3332",
+    "label": "男",
+    "url": "/audio/tai/男__3332.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "男士": {
+    "translation": "男士",
+    "pronunciation": null,
+    "entryId": "23132",
+    "label": "男士",
+    "url": "/audio/tai/男士__23132.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "豆": {
+    "translation": "豆",
+    "pronunciation": null,
+    "entryId": "3388",
+    "label": "豆",
+    "url": "/audio/tai/豆__3388.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "豆腐": {
+    "translation": "豆腐",
+    "pronunciation": null,
+    "entryId": "3490",
+    "label": "豆腐",
+    "url": "/audio/tai/豆腐__3490.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "走": {
+    "translation": "走",
+    "pronunciation": null,
+    "entryId": "3390",
+    "label": "走",
+    "url": "/audio/tai/走__3390.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "走江湖": {
+    "translation": "走江湖",
+    "pronunciation": null,
+    "entryId": "3424",
+    "label": "走江湖",
+    "url": "/audio/tai/走江湖__3424.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "走唱": {
+    "translation": "走唱",
+    "pronunciation": null,
+    "entryId": "3458",
+    "label": "走唱",
+    "url": "/audio/tai/走唱__3458.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "走廊": {
+    "translation": "走廊",
+    "pronunciation": null,
+    "entryId": "25092",
+    "label": "走廊",
+    "url": "/audio/tai/走廊__25092.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "走路": {
+    "translation": "走路",
+    "pronunciation": null,
+    "entryId": "3482",
+    "label": "走路",
+    "url": "/audio/tai/走路__3482.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "車": {
+    "translation": "車",
+    "pronunciation": "tshia",
+    "entryId": "3394",
+    "label": "車",
+    "url": "/audio/tai/車__3394.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "車門": {
+    "translation": "車門",
+    "pronunciation": "tshia-mn̂g",
+    "entryId": "24478",
+    "label": "車門",
+    "url": "/audio/tai/車門__24478.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "車站": {
+    "translation": "車站",
+    "pronunciation": "tshia-tsām",
+    "entryId": "3449",
+    "label": "車站",
+    "url": "/audio/tai/車站__3449.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "車票": {
+    "translation": "車票",
+    "pronunciation": "tshia-phiò",
+    "entryId": "3459",
+    "label": "車票",
+    "url": "/audio/tai/車票__3459.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "車窗": {
+    "translation": "車窗",
+    "pronunciation": null,
+    "entryId": "25094",
+    "label": "車窗",
+    "url": "/audio/tai/車窗__25094.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "那": {
+    "translation": "那",
+    "pronunciation": null,
+    "entryId": "3397",
+    "label": "那【替】",
+    "url": "/audio/tai/那__3397.mp3",
+    "via": "translation_lookup_ods_exact"
+  },
+  "來": {
+    "translation": "來",
+    "pronunciation": null,
+    "entryId": "3529",
+    "label": "來",
+    "url": "/audio/tai/來__3529.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "來去": {
+    "translation": "來去",
+    "pronunciation": null,
+    "entryId": "3538",
+    "label": "來去",
+    "url": "/audio/tai/來去__3538.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "兔": {
+    "translation": "兔",
+    "pronunciation": null,
+    "entryId": "3581",
+    "label": "兔",
+    "url": "/audio/tai/兔__3581.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "到": {
+    "translation": "到",
+    "pronunciation": null,
+    "entryId": "3592",
+    "label": "到【替】",
+    "url": "/audio/tai/到__3592.mp3",
+    "via": "translation_lookup_ods_exact"
+  },
+  "到底": {
+    "translation": "到底",
+    "pronunciation": null,
+    "entryId": "3641",
+    "label": "到底",
+    "url": "/audio/tai/到底__3641.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "到時": {
+    "translation": "到時",
+    "pronunciation": null,
+    "entryId": "3655",
+    "label": "到時",
+    "url": "/audio/tai/到時__3655.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "叔": {
+    "translation": "叔",
+    "pronunciation": null,
+    "entryId": "3606",
+    "label": "叔",
+    "url": "/audio/tai/叔__3606.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "周到": {
+    "translation": "周到",
+    "pronunciation": null,
+    "entryId": "3711",
+    "label": "周到",
+    "url": "/audio/tai/周到__3711.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "和": {
+    "translation": "和",
+    "pronunciation": null,
+    "entryId": "3698",
+    "label": "和",
+    "url": "/audio/tai/和__3698.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "和好": {
+    "translation": "和好",
+    "pronunciation": null,
+    "entryId": "26804",
+    "label": "和好",
+    "url": "/audio/tai/和好__26804.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "和氣": {
+    "translation": "和氣",
+    "pronunciation": null,
+    "entryId": "3725",
+    "label": "和氣",
+    "url": "/audio/tai/和氣__3725.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "和睦": {
+    "translation": "和睦",
+    "pronunciation": null,
+    "entryId": "3739",
+    "label": "和睦",
+    "url": "/audio/tai/和睦__3739.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "夜市": {
+    "translation": "夜市",
+    "pronunciation": "iā-tshī",
+    "entryId": "3773",
+    "label": "夜市",
+    "url": "/audio/tai/夜市__3773.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "妹": {
+    "translation": "妹",
+    "pronunciation": null,
+    "entryId": "3759",
+    "label": "妹",
+    "url": "/audio/tai/妹__3759.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "姊妹": {
+    "translation": "姊妹",
+    "pronunciation": null,
+    "entryId": "3781",
+    "label": "姊妹",
+    "url": "/audio/tai/姊妹__3781.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "店": {
+    "translation": "店",
+    "pronunciation": "tiàm",
+    "entryId": "3821",
+    "label": "店",
+    "url": "/audio/tai/店__3821.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "店員": {
+    "translation": "店員",
+    "pronunciation": "tiàm-uân",
+    "entryId": "3842",
+    "label": "店員",
+    "url": "/audio/tai/店員__3842.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "所": {
+    "translation": "所",
+    "pronunciation": null,
+    "entryId": "3936",
+    "label": "所",
+    "url": "/audio/tai/所__3936.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "放心": {
+    "translation": "放心",
+    "pronunciation": null,
+    "entryId": "23602",
+    "label": "放心",
+    "url": "/audio/tai/放心__23602.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "放手": {
+    "translation": "放手",
+    "pronunciation": null,
+    "entryId": "3982",
+    "label": "放手",
+    "url": "/audio/tai/放手__3982.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "放生": {
+    "translation": "放生",
+    "pronunciation": null,
+    "entryId": "28672",
+    "label": "放生",
+    "url": "/audio/tai/放生__28672.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "放假": {
+    "translation": "放假",
+    "pronunciation": null,
+    "entryId": "23893",
+    "label": "放假",
+    "url": "/audio/tai/放假__23893.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "明年": {
+    "translation": "明年",
+    "pronunciation": "mê-nî",
+    "entryId": "4211",
+    "label": "明年",
+    "url": "/audio/tai/明年__4211.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "杯": {
+    "translation": "杯",
+    "pronunciation": null,
+    "entryId": "4186",
+    "label": "杯",
+    "url": "/audio/tai/杯__4186.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "東方": {
+    "translation": "東方",
+    "pronunciation": null,
+    "entryId": "22969",
+    "label": "東方",
+    "url": "/audio/tai/東方__22969.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "板": {
+    "translation": "板",
+    "pronunciation": null,
+    "entryId": "4189",
+    "label": "板",
+    "url": "/audio/tai/板__4189.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "枕頭": {
+    "translation": "枕頭",
+    "pronunciation": null,
+    "entryId": "24057",
+    "label": "枕頭",
+    "url": "/audio/tai/枕頭__24057.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "枕頭囊": {
+    "translation": "枕頭囊",
+    "pronunciation": null,
+    "entryId": "4245",
+    "label": "枕頭囊",
+    "url": "/audio/tai/枕頭囊__4245.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "果": {
+    "translation": "果",
+    "pronunciation": null,
+    "entryId": "4194",
+    "label": "果",
+    "url": "/audio/tai/果__4194.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "油": {
+    "translation": "油",
+    "pronunciation": null,
+    "entryId": "4254",
+    "label": "油",
+    "url": "/audio/tai/油__4254.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "泡麵": {
+    "translation": "泡麵",
+    "pronunciation": null,
+    "entryId": "4369",
+    "label": "泡麵",
+    "url": "/audio/tai/泡麵__4369.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "爸": {
+    "translation": "爸",
+    "pronunciation": "pâ",
+    "entryId": "4323",
+    "label": "爸",
+    "url": "/audio/tai/爸__4323.mp3",
+    "via": "translation_raw_ods_and_pronunciation_exact"
+  },
+  "爸爸": {
+    "translation": "阿爸",
+    "pronunciation": "a-pâ",
+    "entryId": "4558",
+    "label": "阿爸",
+    "url": "/audio/tai/爸爸__4558.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "爸媽": {
+    "translation": "爸母",
+    "pronunciation": "pâ-bú",
+    "entryId": "4338",
+    "label": "爸母",
+    "url": "/audio/tai/爸媽__4338.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "狗": {
+    "translation": "狗",
+    "pronunciation": "káu",
+    "entryId": "4329",
+    "label": "狗",
+    "url": "/audio/tai/狗__4329.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "直線": {
+    "translation": "直線",
+    "pronunciation": null,
+    "entryId": "25125",
+    "label": "直線",
+    "url": "/audio/tai/直線__25125.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "社區": {
+    "translation": "社區",
+    "pronunciation": null,
+    "entryId": "22416",
+    "label": "社區",
+    "url": "/audio/tai/社區__22416.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "社會": {
+    "translation": "社會",
+    "pronunciation": null,
+    "entryId": "4399",
+    "label": "社會",
+    "url": "/audio/tai/社會__4399.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "空氣": {
+    "translation": "空氣",
+    "pronunciation": null,
+    "entryId": "22345",
+    "label": "空氣",
+    "url": "/audio/tai/空氣__22345.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "花園": {
+    "translation": "花園",
+    "pronunciation": "hue-hn̂g",
+    "entryId": "26209",
+    "label": "花園",
+    "url": "/audio/tai/花園__26209.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "花錢": {
+    "translation": "開錢",
+    "pronunciation": "khai-tsînn",
+    "entryId": "9205",
+    "label": "開錢",
+    "url": "/audio/tai/花錢__9205.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "表姊": {
+    "translation": "表姊",
+    "pronunciation": null,
+    "entryId": "4553",
+    "label": "表姊",
+    "url": "/audio/tai/表姊__4553.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "金絲猴": {
+    "translation": "金絲猴",
+    "pronunciation": null,
+    "entryId": "14115",
+    "label": "金絲猴",
+    "url": "/audio/tai/金絲猴__14115.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "門口": {
+    "translation": "門口",
+    "pronunciation": "mn̂g-kháu",
+    "entryId": "4504",
+    "label": "門口",
+    "url": "/audio/tai/門口__4504.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "門牌": {
+    "translation": "門牌",
+    "pronunciation": "mn̂g-pâi",
+    "entryId": "28786",
+    "label": "門牌",
+    "url": "/audio/tai/門牌__28786.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "門簾": {
+    "translation": "門簾",
+    "pronunciation": null,
+    "entryId": "4658",
+    "label": "門簾",
+    "url": "/audio/tai/門簾__4658.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "阿公": {
+    "translation": "阿公",
+    "pronunciation": null,
+    "entryId": "4508",
+    "label": "阿公",
+    "url": "/audio/tai/阿公__4508.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "阿伯": {
+    "translation": "阿伯",
+    "pronunciation": null,
+    "entryId": "4539",
+    "label": "阿伯",
+    "url": "/audio/tai/阿伯__4539.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "阿姨": {
+    "translation": "阿姨",
+    "pronunciation": null,
+    "entryId": "4567",
+    "label": "阿姨",
+    "url": "/audio/tai/阿姨__4567.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "雨衣": {
+    "translation": "雨衫",
+    "pronunciation": "hōo-sann",
+    "entryId": "4574",
+    "label": "雨衫",
+    "url": "/audio/tai/雨衣__4574.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "青菜": {
+    "translation": "青菜",
+    "pronunciation": "tshenn-tshài",
+    "entryId": "4617",
+    "label": "青菜",
+    "url": "/audio/tai/青菜__4617.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "便當": {
+    "translation": "便當",
+    "pronunciation": "piān-tong",
+    "entryId": "4686",
+    "label": "便當",
+    "url": "/audio/tai/便當__4686.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "保衛": {
+    "translation": "保衛",
+    "pronunciation": null,
+    "entryId": "4751",
+    "label": "保衛",
+    "url": "/audio/tai/保衛__4751.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "南": {
+    "translation": "南",
+    "pronunciation": "lâm",
+    "entryId": "4701",
+    "label": "南",
+    "url": "/audio/tai/南__4701.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "南瓜": {
+    "translation": "金瓜",
+    "pronunciation": "kim-kue",
+    "entryId": "4528",
+    "label": "金瓜",
+    "url": "/audio/tai/南瓜__4528.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "南部": {
+    "translation": "南部",
+    "pronunciation": "lâm-pōo",
+    "entryId": "22790",
+    "label": "南部",
+    "url": "/audio/tai/南部__22790.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "姨": {
+    "translation": "姨",
+    "pronunciation": null,
+    "entryId": "4825",
+    "label": "姨",
+    "url": "/audio/tai/姨__4825.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "客人": {
+    "translation": "人客",
+    "pronunciation": "lâng-kheh",
+    "entryId": "112",
+    "label": "人客",
+    "url": "/audio/tai/客人__112.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "室": {
+    "translation": "室",
+    "pronunciation": null,
+    "entryId": "4851",
+    "label": "室",
+    "url": "/audio/tai/室__4851.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "室內": {
+    "translation": "室內",
+    "pronunciation": null,
+    "entryId": "25651",
+    "label": "室內",
+    "url": "/audio/tai/室內__25651.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "室外": {
+    "translation": "室外",
+    "pronunciation": null,
+    "entryId": "26232",
+    "label": "室外",
+    "url": "/audio/tai/室外__26232.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "後": {
+    "translation": "後",
+    "pronunciation": null,
+    "entryId": "4898",
+    "label": "後",
+    "url": "/audio/tai/後__4898.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "後面": {
+    "translation": "後面",
+    "pronunciation": null,
+    "entryId": "4945",
+    "label": "後面",
+    "url": "/audio/tai/後面__4945.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "是": {
+    "translation": "是",
+    "pronunciation": null,
+    "entryId": "4997",
+    "label": "是",
+    "url": "/audio/tai/是__4997.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "是非": {
+    "translation": "是非",
+    "pronunciation": null,
+    "entryId": "5019",
+    "label": "是非",
+    "url": "/audio/tai/是非__5019.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "架": {
+    "translation": "架",
+    "pronunciation": null,
+    "entryId": "5063",
+    "label": "架",
+    "url": "/audio/tai/架__5063.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "架勢": {
+    "translation": "架勢",
+    "pronunciation": null,
+    "entryId": "26244",
+    "label": "架勢",
+    "url": "/audio/tai/架勢__26244.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "架構": {
+    "translation": "架構",
+    "pronunciation": null,
+    "entryId": "22391",
+    "label": "架構",
+    "url": "/audio/tai/架構__22391.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "洋蔥": {
+    "translation": "洋蔥",
+    "pronunciation": null,
+    "entryId": "5161",
+    "label": "洋蔥",
+    "url": "/audio/tai/洋蔥__5161.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "洗": {
+    "translation": "洗",
+    "pronunciation": "sé",
+    "entryId": "5127",
+    "label": "洗",
+    "url": "/audio/tai/洗__5127.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "洗衣": {
+    "translation": "洗衫",
+    "pronunciation": "sé-sann",
+    "entryId": "5146",
+    "label": "洗衫",
+    "url": "/audio/tai/洗衣__5146.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "洗衣服": {
+    "translation": "洗衫",
+    "pronunciation": "sé-sann",
+    "entryId": "5146",
+    "label": "洗衫",
+    "url": "/audio/tai/洗衣服__5146.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "盹瞌睡": {
+    "translation": "盹瞌睡",
+    "pronunciation": null,
+    "entryId": "5286",
+    "label": "盹瞌睡",
+    "url": "/audio/tai/盹瞌睡__5286.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "看見": {
+    "translation": "看見",
+    "pronunciation": null,
+    "entryId": "5330",
+    "label": "看見",
+    "url": "/audio/tai/看見__5330.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "看法": {
+    "translation": "看法",
+    "pronunciation": null,
+    "entryId": "22308",
+    "label": "看法",
+    "url": "/audio/tai/看法__22308.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "穿": {
+    "translation": "穿",
+    "pronunciation": null,
+    "entryId": "5316",
+    "label": "穿",
+    "url": "/audio/tai/穿__5316.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "穿插": {
+    "translation": "穿插",
+    "pronunciation": null,
+    "entryId": "5345",
+    "label": "穿插",
+    "url": "/audio/tai/穿插__5345.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "紅豆": {
+    "translation": "紅豆",
+    "pronunciation": null,
+    "entryId": "25670",
+    "label": "紅豆",
+    "url": "/audio/tai/紅豆__25670.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "紅茶": {
+    "translation": "紅茶",
+    "pronunciation": "âng-tê",
+    "entryId": "5409",
+    "label": "紅茶",
+    "url": "/audio/tai/紅茶__5409.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "缸": {
+    "translation": "缸",
+    "pronunciation": null,
+    "entryId": "5367",
+    "label": "缸",
+    "url": "/audio/tai/缸__5367.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "要緊": {
+    "translation": "要緊",
+    "pronunciation": null,
+    "entryId": "5549",
+    "label": "要緊",
+    "url": "/audio/tai/要緊__5549.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "面桶": {
+    "translation": "面桶",
+    "pronunciation": null,
+    "entryId": "5627",
+    "label": "面桶",
+    "url": "/audio/tai/面桶__5627.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "飛鳥": {
+    "translation": "飛鳥",
+    "pronunciation": null,
+    "entryId": "5634",
+    "label": "飛鳥",
+    "url": "/audio/tai/飛鳥__5634.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "食穿": {
+    "translation": "食穿",
+    "pronunciation": null,
+    "entryId": "5611",
+    "label": "食穿",
+    "url": "/audio/tai/食穿__5611.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "原子筆": {
+    "translation": "原子筆",
+    "pronunciation": null,
+    "entryId": "5807",
+    "label": "原子筆",
+    "url": "/audio/tai/原子筆__5807.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "哥": {
+    "translation": "哥",
+    "pronunciation": null,
+    "entryId": "5792",
+    "label": "哥",
+    "url": "/audio/tai/哥__5792.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "哥哥": {
+    "translation": "哥哥",
+    "pronunciation": null,
+    "entryId": "5831",
+    "label": "哥哥",
+    "url": "/audio/tai/哥哥__5831.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "孫": {
+    "translation": "孫",
+    "pronunciation": null,
+    "entryId": "5875",
+    "label": "孫",
+    "url": "/audio/tai/孫__5875.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "家": {
+    "translation": "厝",
+    "pronunciation": "tshù",
+    "entryId": "5790",
+    "label": "厝",
+    "url": "/audio/tai/家__5790.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "家人": {
+    "translation": "厝內人",
+    "pronunciation": "tshù-lāi-lâng",
+    "entryId": "28430",
+    "label": "厝內人",
+    "url": "/audio/tai/家人__28430.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "家庭": {
+    "translation": "家庭",
+    "pronunciation": "ka-tîng",
+    "entryId": "22190",
+    "label": "家庭",
+    "url": "/audio/tai/家庭__22190.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "家裡": {
+    "translation": "厝內",
+    "pronunciation": "tshù-lāi",
+    "entryId": "5808",
+    "label": "厝內",
+    "url": "/audio/tai/家裡__5808.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "扇": {
+    "translation": "扇",
+    "pronunciation": "sìnn",
+    "entryId": "5955",
+    "label": "扇",
+    "url": "/audio/tai/扇__5955.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "時鐘": {
+    "translation": "時鐘",
+    "pronunciation": null,
+    "entryId": "6073",
+    "label": "時鐘",
+    "url": "/audio/tai/時鐘__6073.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "書店": {
+    "translation": "冊店",
+    "pronunciation": "tsheh-tiàm",
+    "entryId": "1332",
+    "label": "冊店",
+    "url": "/audio/tai/書店__1332.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "校": {
+    "translation": "校",
+    "pronunciation": null,
+    "entryId": "6082",
+    "label": "校",
+    "url": "/audio/tai/校__6082.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "校長": {
+    "translation": "校長",
+    "pronunciation": null,
+    "entryId": "6117",
+    "label": "校長",
+    "url": "/audio/tai/校長__6117.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "校園": {
+    "translation": "校園",
+    "pronunciation": null,
+    "entryId": "22759",
+    "label": "校園",
+    "url": "/audio/tai/校園__22759.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "桌": {
+    "translation": "桌",
+    "pronunciation": null,
+    "entryId": "6092",
+    "label": "桌",
+    "url": "/audio/tai/桌__6092.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "桌面": {
+    "translation": "桌面",
+    "pronunciation": null,
+    "entryId": "26330",
+    "label": "桌面",
+    "url": "/audio/tai/桌面__26330.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "浴池": {
+    "translation": "浴池",
+    "pronunciation": null,
+    "entryId": "18783",
+    "label": "浴池",
+    "url": "/audio/tai/浴池__18783.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "浴桶": {
+    "translation": "浴桶",
+    "pronunciation": null,
+    "entryId": "6196",
+    "label": "浴桶",
+    "url": "/audio/tai/浴桶__6196.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "浴場": {
+    "translation": "浴場",
+    "pronunciation": null,
+    "entryId": "23155",
+    "label": "浴場",
+    "url": "/audio/tai/浴場__23155.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "烘": {
+    "translation": "烘",
+    "pronunciation": null,
+    "entryId": "6228",
+    "label": "烘",
+    "url": "/audio/tai/烘__6228.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "病人": {
+    "translation": "病人",
+    "pronunciation": "pēnn-lâng",
+    "entryId": "6344",
+    "label": "病人",
+    "url": "/audio/tai/病人__6344.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "站": {
+    "translation": "站",
+    "pronunciation": "tsām",
+    "entryId": "6427",
+    "label": "站",
+    "url": "/audio/tai/站__6427.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "紙": {
+    "translation": "紙",
+    "pronunciation": "tsuá",
+    "entryId": "6477",
+    "label": "紙",
+    "url": "/audio/tai/紙__6477.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "紙袋": {
+    "translation": "紙袋仔",
+    "pronunciation": "tsuá-tē-á",
+    "entryId": "6515",
+    "label": "紙袋仔",
+    "url": "/audio/tai/紙袋__6515.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "茶": {
+    "translation": "茶",
+    "pronunciation": "tê",
+    "entryId": "6537",
+    "label": "茶",
+    "url": "/audio/tai/茶__6537.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "茶杯": {
+    "translation": "茶甌",
+    "pronunciation": "tê-au",
+    "entryId": "6615",
+    "label": "茶甌",
+    "url": "/audio/tai/茶杯__6615.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "茶葉": {
+    "translation": "茶葉",
+    "pronunciation": "tê-hio̍h",
+    "entryId": "6599",
+    "label": "茶葉",
+    "url": "/audio/tai/茶葉__6599.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "起": {
+    "translation": "起",
+    "pronunciation": null,
+    "entryId": "6671",
+    "label": "起",
+    "url": "/audio/tai/起__6671.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "起床": {
+    "translation": "起床",
+    "pronunciation": null,
+    "entryId": "6709",
+    "label": "起床",
+    "url": "/audio/tai/起床__6709.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "起來": {
+    "translation": "起來",
+    "pronunciation": null,
+    "entryId": "6716",
+    "label": "起來",
+    "url": "/audio/tai/起來__6716.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "起飛": {
+    "translation": "起飛",
+    "pronunciation": null,
+    "entryId": "25197",
+    "label": "起飛",
+    "url": "/audio/tai/起飛__25197.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "退休": {
+    "translation": "退休",
+    "pronunciation": null,
+    "entryId": "6701",
+    "label": "退休",
+    "url": "/audio/tai/退休__6701.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "院": {
+    "translation": "院",
+    "pronunciation": "īnn",
+    "entryId": "6791",
+    "label": "院",
+    "url": "/audio/tai/院__6791.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "院長": {
+    "translation": "院長",
+    "pronunciation": "īnn-tiúnn",
+    "entryId": "22334",
+    "label": "院長",
+    "url": "/audio/tai/院長__22334.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "馬桶": {
+    "translation": "馬桶",
+    "pronunciation": null,
+    "entryId": "25725",
+    "label": "馬桶",
+    "url": "/audio/tai/馬桶__25725.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "馬路": {
+    "translation": "馬路",
+    "pronunciation": "bé-lōo",
+    "entryId": "23931",
+    "label": "馬路",
+    "url": "/audio/tai/馬路__23931.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "骨": {
+    "translation": "骨",
+    "pronunciation": null,
+    "entryId": "6800",
+    "label": "骨",
+    "url": "/audio/tai/骨__6800.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "骨折": {
+    "translation": "骨折",
+    "pronunciation": null,
+    "entryId": "24832",
+    "label": "骨折",
+    "url": "/audio/tai/骨折__24832.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "骨架": {
+    "translation": "骨架",
+    "pronunciation": null,
+    "entryId": "26373",
+    "label": "骨架",
+    "url": "/audio/tai/骨架__26373.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "骨頭": {
+    "translation": "骨頭",
+    "pronunciation": null,
+    "entryId": "23932",
+    "label": "骨頭",
+    "url": "/audio/tai/骨頭__23932.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "高架": {
+    "translation": "高架",
+    "pronunciation": null,
+    "entryId": "26375",
+    "label": "高架",
+    "url": "/audio/tai/高架__26375.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "高等": {
+    "translation": "高等",
+    "pronunciation": null,
+    "entryId": "25205",
+    "label": "高等",
+    "url": "/audio/tai/高等__25205.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "高麗菜": {
+    "translation": "高麗菜",
+    "pronunciation": "ko-lê-tshài",
+    "entryId": "6902",
+    "label": "高麗菜",
+    "url": "/audio/tai/高麗菜__6902.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "停": {
+    "translation": "停",
+    "pronunciation": "thîng",
+    "entryId": "6914",
+    "label": "停",
+    "url": "/audio/tai/停__6914.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "停車": {
+    "translation": "停車",
+    "pronunciation": "thîng-tshia",
+    "entryId": "23488",
+    "label": "停車",
+    "url": "/audio/tai/停車__23488.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "動物園": {
+    "translation": "動物園",
+    "pronunciation": "tōng-bu̍t-hn̂g",
+    "entryId": "21284",
+    "label": "動物園",
+    "url": "/audio/tai/動物園__21284.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "匙": {
+    "translation": "匙",
+    "pronunciation": null,
+    "entryId": "7008",
+    "label": "匙",
+    "url": "/audio/tai/匙__7008.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "區": {
+    "translation": "區",
+    "pronunciation": null,
+    "entryId": "7010",
+    "label": "區",
+    "url": "/audio/tai/區__7010.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "區域": {
+    "translation": "區域",
+    "pronunciation": null,
+    "entryId": "7048",
+    "label": "區域",
+    "url": "/audio/tai/區域__7048.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "商店": {
+    "translation": "店仔",
+    "pronunciation": "tiàm-á",
+    "entryId": "3830",
+    "label": "店仔",
+    "url": "/audio/tai/商店__3830.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "問話": {
+    "translation": "問話",
+    "pronunciation": "mn̄g-uē",
+    "entryId": "26388",
+    "label": "問話",
+    "url": "/audio/tai/問話__26388.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "問路": {
+    "translation": "問路",
+    "pronunciation": "mn̄g-lōo",
+    "entryId": "28785",
+    "label": "問路",
+    "url": "/audio/tai/問路__28785.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "教室": {
+    "translation": "教室",
+    "pronunciation": null,
+    "entryId": "23164",
+    "label": "教室",
+    "url": "/audio/tai/教室__23164.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "桶": {
+    "translation": "桶",
+    "pronunciation": null,
+    "entryId": "7439",
+    "label": "桶",
+    "url": "/audio/tai/桶__7439.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "梯": {
+    "translation": "梯",
+    "pronunciation": null,
+    "entryId": "7468",
+    "label": "梯",
+    "url": "/audio/tai/梯__7468.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "梯次": {
+    "translation": "梯次",
+    "pronunciation": null,
+    "entryId": "26428",
+    "label": "梯次",
+    "url": "/audio/tai/梯次__26428.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "甜": {
+    "translation": "甜",
+    "pronunciation": "tinn",
+    "entryId": "7630",
+    "label": "甜",
+    "url": "/audio/tai/甜__7630.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "甜湯": {
+    "translation": "甜湯",
+    "pronunciation": "tinn-thng",
+    "entryId": "7670",
+    "label": "甜湯",
+    "url": "/audio/tai/甜湯__7670.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "眼淚": {
+    "translation": "目屎",
+    "pronunciation": "ba̍k-sái",
+    "entryId": "1918",
+    "label": "目屎",
+    "url": "/audio/tai/眼淚__1918.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "眼睛": {
+    "translation": "目睭",
+    "pronunciation": "ba̍k-tsiu",
+    "entryId": "1975",
+    "label": "目睭",
+    "url": "/audio/tai/眼睛__1975.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "眼藥水": {
+    "translation": "目藥水",
+    "pronunciation": "ba̍k-io̍h-tsuí",
+    "entryId": "29365",
+    "label": "目藥水",
+    "url": "/audio/tai/眼藥水__29365.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "眼鏡": {
+    "translation": "目鏡",
+    "pronunciation": "ba̍k-kiànn",
+    "entryId": "2024",
+    "label": "目鏡",
+    "url": "/audio/tai/眼鏡__2024.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "船": {
+    "translation": "船",
+    "pronunciation": null,
+    "entryId": "7784",
+    "label": "船",
+    "url": "/audio/tai/船__7784.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "船長": {
+    "translation": "船長",
+    "pronunciation": null,
+    "entryId": "23171",
+    "label": "船長",
+    "url": "/audio/tai/船長__23171.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "蛇": {
+    "translation": "蛇",
+    "pronunciation": null,
+    "entryId": "7818",
+    "label": "蛇",
+    "url": "/audio/tai/蛇__7818.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "蛋": {
+    "translation": "卵",
+    "pronunciation": "nn̄g",
+    "entryId": "2953",
+    "label": "卵",
+    "url": "/audio/tai/蛋__2953.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "蛋糕": {
+    "translation": "雞卵糕",
+    "pronunciation": "ke-nn̄g-ko",
+    "entryId": "12682",
+    "label": "雞卵糕",
+    "url": "/audio/tai/蛋糕__12682.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "被告": {
+    "translation": "被告",
+    "pronunciation": null,
+    "entryId": "23027",
+    "label": "被告",
+    "url": "/audio/tai/被告__23027.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "被單": {
+    "translation": "被單",
+    "pronunciation": null,
+    "entryId": "7874",
+    "label": "被單",
+    "url": "/audio/tai/被單__7874.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "貨櫃": {
+    "translation": "貨櫃",
+    "pronunciation": null,
+    "entryId": "23172",
+    "label": "貨櫃",
+    "url": "/audio/tai/貨櫃__23172.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "貫穿": {
+    "translation": "貫穿",
+    "pronunciation": null,
+    "entryId": "25765",
+    "label": "貫穿",
+    "url": "/audio/tai/貫穿__25765.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "這陣": {
+    "translation": "這陣",
+    "pronunciation": null,
+    "entryId": "7956",
+    "label": "這陣",
+    "url": "/audio/tai/這陣__7956.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "都": {
+    "translation": "都",
+    "pronunciation": null,
+    "entryId": "8002",
+    "label": "都",
+    "url": "/audio/tai/都__8002.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "魚": {
+    "translation": "魚",
+    "pronunciation": "hî",
+    "entryId": "8084",
+    "label": "魚",
+    "url": "/audio/tai/魚__8084.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "魚丸": {
+    "translation": "魚丸",
+    "pronunciation": "hî-uân",
+    "entryId": "8090",
+    "label": "魚丸",
+    "url": "/audio/tai/魚丸__8090.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鳥": {
+    "translation": "鳥",
+    "pronunciation": "tsiáu",
+    "entryId": "8085",
+    "label": "鳥",
+    "url": "/audio/tai/鳥__8085.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "喝": {
+    "translation": "喝",
+    "pronunciation": null,
+    "entryId": "8175",
+    "label": "喝",
+    "url": "/audio/tai/喝__8175.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "喝水": {
+    "translation": "啉水",
+    "pronunciation": "lim-tsuí",
+    "entryId": "7030",
+    "label": "啉水",
+    "url": "/audio/tai/喝水__7030.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "喝咻": {
+    "translation": "喝咻",
+    "pronunciation": null,
+    "entryId": "8206",
+    "label": "喝咻",
+    "url": "/audio/tai/喝咻__8206.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "喝拳": {
+    "translation": "喝拳",
+    "pronunciation": null,
+    "entryId": "8210",
+    "label": "喝拳",
+    "url": "/audio/tai/喝拳__8210.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "喝茶": {
+    "translation": "啉茶",
+    "pronunciation": "lim-tê",
+    "entryId": "7046",
+    "label": "啉茶",
+    "url": "/audio/tai/喝茶__7046.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "喝湯": {
+    "translation": "啉湯",
+    "pronunciation": "lim-thng",
+    "entryId": "7053",
+    "label": "啉湯",
+    "url": "/audio/tai/喝湯__7053.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "喝聲": {
+    "translation": "喝聲",
+    "pronunciation": null,
+    "entryId": "28440",
+    "label": "喝聲",
+    "url": "/audio/tai/喝聲__28440.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "圍牆": {
+    "translation": "圍牆",
+    "pronunciation": null,
+    "entryId": "8281",
+    "label": "圍牆",
+    "url": "/audio/tai/圍牆__8281.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "報到": {
+    "translation": "報到",
+    "pronunciation": null,
+    "entryId": "8264",
+    "label": "報到",
+    "url": "/audio/tai/報到__8264.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "報紙": {
+    "translation": "報紙",
+    "pronunciation": "pò-tsuá",
+    "entryId": "8270",
+    "label": "報紙",
+    "url": "/audio/tai/報紙__8270.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "就": {
+    "translation": "就",
+    "pronunciation": null,
+    "entryId": "8291",
+    "label": "就",
+    "url": "/audio/tai/就__8291.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "就近": {
+    "translation": "就近",
+    "pronunciation": null,
+    "entryId": "8304",
+    "label": "就近",
+    "url": "/audio/tai/就近__8304.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "就是": {
+    "translation": "就是",
+    "pronunciation": null,
+    "entryId": "8305",
+    "label": "就是",
+    "url": "/audio/tai/就是__8305.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "就醫": {
+    "translation": "就醫",
+    "pronunciation": null,
+    "entryId": "23643",
+    "label": "就醫",
+    "url": "/audio/tai/就醫__23643.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "廁": {
+    "translation": "便所",
+    "pronunciation": "piān-sóo",
+    "entryId": "4675",
+    "label": "便所",
+    "url": "/audio/tai/廁__4675.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "廁所": {
+    "translation": "便所",
+    "pronunciation": "piān-sóo",
+    "entryId": "4675",
+    "label": "便所",
+    "url": "/audio/tai/廁所__4675.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "棉被": {
+    "translation": "棉被",
+    "pronunciation": null,
+    "entryId": "23322",
+    "label": "棉被",
+    "url": "/audio/tai/棉被__23322.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "椅": {
+    "translation": "椅",
+    "pronunciation": null,
+    "entryId": "8484",
+    "label": "椅",
+    "url": "/audio/tai/椅__8484.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "椅墊仔": {
+    "translation": "椅墊仔",
+    "pronunciation": null,
+    "entryId": "8509",
+    "label": "椅墊仔",
+    "url": "/audio/tai/椅墊仔__8509.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "港": {
+    "translation": "港",
+    "pronunciation": null,
+    "entryId": "8544",
+    "label": "港",
+    "url": "/audio/tai/港__8544.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "港口": {
+    "translation": "港口",
+    "pronunciation": null,
+    "entryId": "22881",
+    "label": "港口",
+    "url": "/audio/tai/港口__22881.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "湯": {
+    "translation": "湯",
+    "pronunciation": "thng",
+    "entryId": "8549",
+    "label": "湯",
+    "url": "/audio/tai/湯__8549.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "猴": {
+    "translation": "猴",
+    "pronunciation": null,
+    "entryId": "8571",
+    "label": "猴",
+    "url": "/audio/tai/猴__8571.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "畫廊": {
+    "translation": "畫廊",
+    "pronunciation": null,
+    "entryId": "23791",
+    "label": "畫廊",
+    "url": "/audio/tai/畫廊__23791.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "痛": {
+    "translation": "疼",
+    "pronunciation": "thiànn",
+    "entryId": "6340",
+    "label": "疼【替】",
+    "url": "/audio/tai/痛__6340.mp3",
+    "via": "translation_lookup_ods_exact"
+  },
+  "發熱": {
+    "translation": "發燒",
+    "pronunciation": "huat-sio",
+    "entryId": "8751",
+    "label": "發燒",
+    "url": "/audio/tai/發熱__8751.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "稀飯": {
+    "translation": "糜",
+    "pronunciation": "muê",
+    "entryId": "12244",
+    "label": "糜",
+    "url": "/audio/tai/稀飯__12244.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "筆": {
+    "translation": "筆",
+    "pronunciation": null,
+    "entryId": "8816",
+    "label": "筆",
+    "url": "/audio/tai/筆__8816.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "等一下": {
+    "translation": "等一下",
+    "pronunciation": null,
+    "entryId": "8835",
+    "label": "等一下",
+    "url": "/audio/tai/等一下__8835.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "結果": {
+    "translation": "結果",
+    "pronunciation": null,
+    "entryId": "8855",
+    "label": "結果",
+    "url": "/audio/tai/結果__8855.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "菜": {
+    "translation": "菜",
+    "pronunciation": "tshài",
+    "entryId": "8930",
+    "label": "菜",
+    "url": "/audio/tai/菜__8930.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "菜市場": {
+    "translation": "菜市仔",
+    "pronunciation": "tshài-tshī-á",
+    "entryId": "8939",
+    "label": "菜市仔",
+    "url": "/audio/tai/菜市場__8939.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "菜單": {
+    "translation": "菜單",
+    "pronunciation": "tshài-tuann",
+    "entryId": "8962",
+    "label": "菜單",
+    "url": "/audio/tai/菜單__8962.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "菜湯": {
+    "translation": "菜湯",
+    "pronunciation": "tshài-thng",
+    "entryId": "8964",
+    "label": "菜湯",
+    "url": "/audio/tai/菜湯__8964.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "菜園": {
+    "translation": "菜園",
+    "pronunciation": "tshài-hn̂g",
+    "entryId": "8965",
+    "label": "菜園",
+    "url": "/audio/tai/菜園__8965.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "街": {
+    "translation": "街",
+    "pronunciation": null,
+    "entryId": "8984",
+    "label": "街",
+    "url": "/audio/tai/街__8984.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "買票": {
+    "translation": "買票",
+    "pronunciation": "bé-phiò",
+    "entryId": "9082",
+    "label": "買票",
+    "url": "/audio/tai/買票__9082.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "超市": {
+    "translation": "超市",
+    "pronunciation": "tshiau-tshī",
+    "entryId": "24591",
+    "label": "超市",
+    "url": "/audio/tai/超市__24591.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "跑": {
+    "translation": "跑",
+    "pronunciation": null,
+    "entryId": "9100",
+    "label": "跑",
+    "url": "/audio/tai/跑__9100.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "跑車": {
+    "translation": "跑車",
+    "pronunciation": null,
+    "entryId": "25268",
+    "label": "跑車",
+    "url": "/audio/tai/跑車__25268.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "跑馬": {
+    "translation": "跑馬",
+    "pronunciation": null,
+    "entryId": "9125",
+    "label": "跑馬",
+    "url": "/audio/tai/跑馬__9125.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "跑道": {
+    "translation": "跑道",
+    "pronunciation": null,
+    "entryId": "25809",
+    "label": "跑道",
+    "url": "/audio/tai/跑道__25809.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "進入": {
+    "translation": "入去",
+    "pronunciation": "ji̍p-khì",
+    "entryId": "14578",
+    "label": "入去",
+    "url": "/audio/tai/進入__14578.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "郵局": {
+    "translation": "郵局",
+    "pronunciation": null,
+    "entryId": "9111",
+    "label": "郵局",
+    "url": "/audio/tai/郵局__9111.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鄉村": {
+    "translation": "鄉村",
+    "pronunciation": null,
+    "entryId": "9112",
+    "label": "鄉村",
+    "url": "/audio/tai/鄉村__9112.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "開水": {
+    "translation": "滾水",
+    "pronunciation": "kún-tsuí",
+    "entryId": "10571",
+    "label": "滾水",
+    "url": "/audio/tai/開水__10571.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "開車": {
+    "translation": "駛車",
+    "pronunciation": "sái-tshia",
+    "entryId": "11548",
+    "label": "駛車",
+    "url": "/audio/tai/開車__11548.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "開店": {
+    "translation": "開店",
+    "pronunciation": "khui-tiàm",
+    "entryId": "22767",
+    "label": "開店",
+    "url": "/audio/tai/開店__22767.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "開門": {
+    "translation": "開門",
+    "pronunciation": "khui-mn̂g",
+    "entryId": "26519",
+    "label": "開門",
+    "url": "/audio/tai/開門__26519.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "開會": {
+    "translation": "開會",
+    "pronunciation": null,
+    "entryId": "9192",
+    "label": "開會",
+    "url": "/audio/tai/開會__9192.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "飯": {
+    "translation": "飯",
+    "pronunciation": "pn̄g",
+    "entryId": "9222",
+    "label": "飯",
+    "url": "/audio/tai/飯__9222.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "飯店": {
+    "translation": "飯店",
+    "pronunciation": "pn̄g-tiàm",
+    "entryId": "9244",
+    "label": "飯店",
+    "url": "/audio/tai/飯店__9244.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "飯碗": {
+    "translation": "飯碗",
+    "pronunciation": null,
+    "entryId": "9274",
+    "label": "飯碗",
+    "url": "/audio/tai/飯碗__9274.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "黃豆": {
+    "translation": "黃豆",
+    "pronunciation": null,
+    "entryId": "9242",
+    "label": "黃豆",
+    "url": "/audio/tai/黃豆__9242.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "園": {
+    "translation": "園",
+    "pronunciation": "hn̂g",
+    "entryId": "9351",
+    "label": "園",
+    "url": "/audio/tai/園__9351.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "園區": {
+    "translation": "園區",
+    "pronunciation": "hn̂g-khu",
+    "entryId": "22813",
+    "label": "園區",
+    "url": "/audio/tai/園區__22813.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "媽": {
+    "translation": "媽",
+    "pronunciation": "má",
+    "entryId": "9406",
+    "label": "媽",
+    "url": "/audio/tai/媽__9406.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "媽媽": {
+    "translation": "阿母",
+    "pronunciation": "a-bú",
+    "entryId": "4524",
+    "label": "阿母",
+    "url": "/audio/tai/媽媽__4524.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "微波爐": {
+    "translation": "微波爐",
+    "pronunciation": "bî-pho-lôo",
+    "entryId": "26828",
+    "label": "微波爐",
+    "url": "/audio/tai/微波爐__26828.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "新年": {
+    "translation": "新年",
+    "pronunciation": "sin-nî",
+    "entryId": "9505",
+    "label": "新年",
+    "url": "/audio/tai/新年__9505.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "會": {
+    "translation": "會",
+    "pronunciation": null,
+    "entryId": "9566",
+    "label": "會",
+    "url": "/audio/tai/會__9566.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "滑鼠": {
+    "translation": "滑鼠",
+    "pronunciation": null,
+    "entryId": "22770",
+    "label": "滑鼠",
+    "url": "/audio/tai/滑鼠__22770.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "煎餅": {
+    "translation": "煎餅",
+    "pronunciation": null,
+    "entryId": "26549",
+    "label": "煎餅",
+    "url": "/audio/tai/煎餅__26549.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "碗": {
+    "translation": "碗",
+    "pronunciation": null,
+    "entryId": "9775",
+    "label": "碗",
+    "url": "/audio/tai/碗__9775.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "萬": {
+    "translation": "萬",
+    "pronunciation": null,
+    "entryId": "9861",
+    "label": "萬",
+    "url": "/audio/tai/萬__9861.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "萬一": {
+    "translation": "萬一",
+    "pronunciation": null,
+    "entryId": "9868",
+    "label": "萬一",
+    "url": "/audio/tai/萬一__9868.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "腦": {
+    "translation": "腦",
+    "pronunciation": "náu",
+    "entryId": "9855",
+    "label": "腦",
+    "url": "/audio/tai/腦__9855.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "舅": {
+    "translation": "舅",
+    "pronunciation": null,
+    "entryId": "9860",
+    "label": "舅",
+    "url": "/audio/tai/舅__9860.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "解說": {
+    "translation": "解說",
+    "pronunciation": null,
+    "entryId": "10045",
+    "label": "解說",
+    "url": "/audio/tai/解說__10045.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "話": {
+    "translation": "話",
+    "pronunciation": "uē",
+    "entryId": "10051",
+    "label": "話",
+    "url": "/audio/tai/話__10051.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "路": {
+    "translation": "路",
+    "pronunciation": "lōo",
+    "entryId": "10136",
+    "label": "路",
+    "url": "/audio/tai/路__10136.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "路口": {
+    "translation": "路口",
+    "pronunciation": "lōo-kháu",
+    "entryId": "24898",
+    "label": "路口",
+    "url": "/audio/tai/路口__24898.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "路線": {
+    "translation": "路線",
+    "pronunciation": "lōo-suànn",
+    "entryId": "22641",
+    "label": "路線",
+    "url": "/audio/tai/路線__22641.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "路邊": {
+    "translation": "路邊",
+    "pronunciation": "lōo-pinn",
+    "entryId": "10244",
+    "label": "路邊",
+    "url": "/audio/tai/路邊__10244.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "農村": {
+    "translation": "農村",
+    "pronunciation": null,
+    "entryId": "10183",
+    "label": "農村",
+    "url": "/audio/tai/農村__10183.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "過來": {
+    "translation": "過來",
+    "pronunciation": null,
+    "entryId": "23521",
+    "label": "過來",
+    "url": "/audio/tai/過來__23521.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "過橋": {
+    "translation": "過橋",
+    "pronunciation": null,
+    "entryId": "10234",
+    "label": "過橋",
+    "url": "/audio/tai/過橋__10234.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "道": {
+    "translation": "道",
+    "pronunciation": null,
+    "entryId": "10153",
+    "label": "道",
+    "url": "/audio/tai/道__10153.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "道路": {
+    "translation": "道路",
+    "pronunciation": null,
+    "entryId": "10227",
+    "label": "道路",
+    "url": "/audio/tai/道路__10227.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鉛筆": {
+    "translation": "鉛筆",
+    "pronunciation": null,
+    "entryId": "10273",
+    "label": "鉛筆",
+    "url": "/audio/tai/鉛筆__10273.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "零錢": {
+    "translation": "零星錢",
+    "pronunciation": "lân-san-tsînn",
+    "entryId": "10314",
+    "label": "零星錢",
+    "url": "/audio/tai/零錢__10314.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "電": {
+    "translation": "電",
+    "pronunciation": "tiān",
+    "entryId": "10283",
+    "label": "電",
+    "url": "/audio/tai/電__10283.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "電力": {
+    "translation": "電力",
+    "pronunciation": null,
+    "entryId": "10289",
+    "label": "電力",
+    "url": "/audio/tai/電力__10289.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "電池": {
+    "translation": "電池",
+    "pronunciation": "tiān-tî",
+    "entryId": "10307",
+    "label": "電池",
+    "url": "/audio/tai/電池__10307.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "電風扇": {
+    "translation": "電風",
+    "pronunciation": "tiān-hong",
+    "entryId": "10317",
+    "label": "電風",
+    "url": "/audio/tai/電風扇__10317.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "電梯": {
+    "translation": "電梯",
+    "pronunciation": "tiān-thui",
+    "entryId": "10321",
+    "label": "電梯",
+    "url": "/audio/tai/電梯__10321.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "電視": {
+    "translation": "電視",
+    "pronunciation": "tiān-sī",
+    "entryId": "10326",
+    "label": "電視",
+    "url": "/audio/tai/電視__10326.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "電腦": {
+    "translation": "電腦",
+    "pronunciation": "tiān-náu",
+    "entryId": "10332",
+    "label": "電腦",
+    "url": "/audio/tai/電腦__10332.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "電話": {
+    "translation": "電話",
+    "pronunciation": "tiān-uē",
+    "entryId": "10333",
+    "label": "電話",
+    "url": "/audio/tai/電話__10333.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "電線": {
+    "translation": "電線",
+    "pronunciation": null,
+    "entryId": "10338",
+    "label": "電線",
+    "url": "/audio/tai/電線__10338.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "電鍋": {
+    "translation": "電鍋",
+    "pronunciation": null,
+    "entryId": "10346",
+    "label": "電鍋",
+    "url": "/audio/tai/電鍋__10346.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鼠": {
+    "translation": "鼠",
+    "pronunciation": null,
+    "entryId": "10356",
+    "label": "鼠",
+    "url": "/audio/tai/鼠__10356.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "圖書館": {
+    "translation": "圖書館",
+    "pronunciation": null,
+    "entryId": "10430",
+    "label": "圖書館",
+    "url": "/audio/tai/圖書館__10430.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "墊": {
+    "translation": "墊",
+    "pronunciation": null,
+    "entryId": "10411",
+    "label": "墊",
+    "url": "/audio/tai/墊__10411.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "對話": {
+    "translation": "對話",
+    "pronunciation": "tuì-uē",
+    "entryId": "22642",
+    "label": "對話",
+    "url": "/audio/tai/對話__22642.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "慢": {
+    "translation": "慢",
+    "pronunciation": null,
+    "entryId": "10498",
+    "label": "慢",
+    "url": "/audio/tai/慢__10498.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "慢慢": {
+    "translation": "慢慢",
+    "pronunciation": null,
+    "entryId": "22425",
+    "label": "慢慢",
+    "url": "/audio/tai/慢慢__22425.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "演說": {
+    "translation": "演說",
+    "pronunciation": null,
+    "entryId": "24147",
+    "label": "演說",
+    "url": "/audio/tai/演說__24147.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "網球": {
+    "translation": "網球",
+    "pronunciation": null,
+    "entryId": "22737",
+    "label": "網球",
+    "url": "/audio/tai/網球__22737.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "網路": {
+    "translation": "網路",
+    "pronunciation": null,
+    "entryId": "22150",
+    "label": "網路",
+    "url": "/audio/tai/網路__22150.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "綿羊": {
+    "translation": "綿羊",
+    "pronunciation": "mî-iûnn",
+    "entryId": "25323",
+    "label": "綿羊",
+    "url": "/audio/tai/綿羊__25323.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "腿": {
+    "translation": "腿",
+    "pronunciation": null,
+    "entryId": "10753",
+    "label": "腿",
+    "url": "/audio/tai/腿__10753.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "蒜": {
+    "translation": "蒜",
+    "pronunciation": null,
+    "entryId": "10782",
+    "label": "蒜",
+    "url": "/audio/tai/蒜__10782.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "蒜頭": {
+    "translation": "蒜頭",
+    "pronunciation": null,
+    "entryId": "10798",
+    "label": "蒜頭",
+    "url": "/audio/tai/蒜頭__10798.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "蜘蛛網": {
+    "translation": "蜘蛛網",
+    "pronunciation": null,
+    "entryId": "10810",
+    "label": "蜘蛛網",
+    "url": "/audio/tai/蜘蛛網__10810.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "說明": {
+    "translation": "說明",
+    "pronunciation": null,
+    "entryId": "10835",
+    "label": "說明",
+    "url": "/audio/tai/說明__10835.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "說服": {
+    "translation": "說服",
+    "pronunciation": null,
+    "entryId": "22988",
+    "label": "說服",
+    "url": "/audio/tai/說服__22988.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "說話": {
+    "translation": "講話",
+    "pronunciation": "kóng-uē",
+    "entryId": "12399",
+    "label": "講話",
+    "url": "/audio/tai/說話__12399.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "銀": {
+    "translation": "銀",
+    "pronunciation": "gîn",
+    "entryId": "10865",
+    "label": "銀",
+    "url": "/audio/tai/銀__10865.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "銀色": {
+    "translation": "銀色",
+    "pronunciation": "gîn-sik",
+    "entryId": "10875",
+    "label": "銀色",
+    "url": "/audio/tai/銀色__10875.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "銀行": {
+    "translation": "銀行",
+    "pronunciation": "gîn-hâng",
+    "entryId": "10876",
+    "label": "銀行",
+    "url": "/audio/tai/銀行__10876.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "銀樓": {
+    "translation": "銀樓",
+    "pronunciation": "gîn-lâu",
+    "entryId": "26627",
+    "label": "銀樓",
+    "url": "/audio/tai/銀樓__26627.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "需要": {
+    "translation": "需要",
+    "pronunciation": null,
+    "entryId": "22112",
+    "label": "需要",
+    "url": "/audio/tai/需要__22112.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "餅": {
+    "translation": "餅",
+    "pronunciation": null,
+    "entryId": "10917",
+    "label": "餅",
+    "url": "/audio/tai/餅__10917.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鼻": {
+    "translation": "鼻",
+    "pronunciation": null,
+    "entryId": "10938",
+    "label": "鼻",
+    "url": "/audio/tai/鼻__10938.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "廚子": {
+    "translation": "廚子",
+    "pronunciation": null,
+    "entryId": "11019",
+    "label": "廚子",
+    "url": "/audio/tai/廚子__11019.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "廚房": {
+    "translation": "廚房",
+    "pronunciation": null,
+    "entryId": "11034",
+    "label": "廚房",
+    "url": "/audio/tai/廚房__11034.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "廠": {
+    "translation": "廠",
+    "pronunciation": null,
+    "entryId": "11012",
+    "label": "廠",
+    "url": "/audio/tai/廠__11012.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "廠房": {
+    "translation": "廠房",
+    "pronunciation": null,
+    "entryId": "23421",
+    "label": "廠房",
+    "url": "/audio/tai/廠房__23421.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "廠長": {
+    "translation": "廠長",
+    "pronunciation": null,
+    "entryId": "26640",
+    "label": "廠長",
+    "url": "/audio/tai/廠長__26640.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "暫停": {
+    "translation": "暫停",
+    "pronunciation": "tsiām-thîng",
+    "entryId": "24631",
+    "label": "暫停",
+    "url": "/audio/tai/暫停__24631.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "樓梯": {
+    "translation": "樓梯",
+    "pronunciation": null,
+    "entryId": "11172",
+    "label": "樓梯",
+    "url": "/audio/tai/樓梯__11172.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "熱": {
+    "translation": "燒",
+    "pronunciation": "sio",
+    "entryId": "11772",
+    "label": "燒",
+    "url": "/audio/tai/熱__11772.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "熱天": {
+    "translation": "熱天",
+    "pronunciation": "jua̍h-thinn",
+    "entryId": "11212",
+    "label": "熱天",
+    "url": "/audio/tai/熱天__11212.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "熱水": {
+    "translation": "燒水",
+    "pronunciation": "sio-tsuí",
+    "entryId": "11780",
+    "label": "燒水",
+    "url": "/audio/tai/熱水__11780.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "盤": {
+    "translation": "盤",
+    "pronunciation": null,
+    "entryId": "11210",
+    "label": "盤",
+    "url": "/audio/tai/盤__11210.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "箱": {
+    "translation": "箱",
+    "pronunciation": "siunn",
+    "entryId": "11250",
+    "label": "箱",
+    "url": "/audio/tai/箱__11250.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "線": {
+    "translation": "線",
+    "pronunciation": null,
+    "entryId": "11276",
+    "label": "線",
+    "url": "/audio/tai/線__11276.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "蔥": {
+    "translation": "蔥",
+    "pronunciation": null,
+    "entryId": "11324",
+    "label": "蔥",
+    "url": "/audio/tai/蔥__11324.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "蝦": {
+    "translation": "蝦",
+    "pronunciation": null,
+    "entryId": "11329",
+    "label": "蝦",
+    "url": "/audio/tai/蝦__11329.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "衛生": {
+    "translation": "衛生",
+    "pronunciation": null,
+    "entryId": "11359",
+    "label": "衛生",
+    "url": "/audio/tai/衛生__11359.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "衛生紙": {
+    "translation": "衛生紙",
+    "pronunciation": "uē-sing-tsuá",
+    "entryId": "11360",
+    "label": "衛生紙",
+    "url": "/audio/tai/衛生紙__11360.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "請坐": {
+    "translation": "請坐",
+    "pronunciation": null,
+    "entryId": "11414",
+    "label": "請坐",
+    "url": "/audio/tai/請坐__11414.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "豬": {
+    "translation": "豬",
+    "pronunciation": "ti",
+    "entryId": "11384",
+    "label": "豬",
+    "url": "/audio/tai/豬__11384.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "豬肉": {
+    "translation": "豬肉",
+    "pronunciation": "ti-bah",
+    "entryId": "11411",
+    "label": "豬肉",
+    "url": "/audio/tai/豬肉__11411.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "豬肚": {
+    "translation": "豬肚",
+    "pronunciation": null,
+    "entryId": "11418",
+    "label": "豬肚",
+    "url": "/audio/tai/豬肚__11418.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "賣場": {
+    "translation": "賣場",
+    "pronunciation": "bē-tiûnn",
+    "entryId": "22739",
+    "label": "賣場",
+    "url": "/audio/tai/賣場__22739.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "輪椅": {
+    "translation": "輪椅",
+    "pronunciation": null,
+    "entryId": "25906",
+    "label": "輪椅",
+    "url": "/audio/tai/輪椅__25906.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "醃缸": {
+    "translation": "醃缸",
+    "pronunciation": null,
+    "entryId": "11495",
+    "label": "醃缸",
+    "url": "/audio/tai/醃缸__11495.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "學生": {
+    "translation": "學生",
+    "pronunciation": "ha̍k-sing",
+    "entryId": "11618",
+    "label": "學生",
+    "url": "/audio/tai/學生__11618.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "學校": {
+    "translation": "學校",
+    "pronunciation": "ha̍k-hāu",
+    "entryId": "11622",
+    "label": "學校",
+    "url": "/audio/tai/學校__11622.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "學習": {
+    "translation": "學習",
+    "pronunciation": "ha̍k-si̍p",
+    "entryId": "11628",
+    "label": "學習",
+    "url": "/audio/tai/學習__11628.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "學費": {
+    "translation": "學費",
+    "pronunciation": "ha̍k-huì",
+    "entryId": "11631",
+    "label": "學費",
+    "url": "/audio/tai/學費__11631.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "學會": {
+    "translation": "學會",
+    "pronunciation": "o̍h-ē",
+    "entryId": "26676",
+    "label": "學會",
+    "url": "/audio/tai/學會__26676.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "橋": {
+    "translation": "橋",
+    "pronunciation": null,
+    "entryId": "11699",
+    "label": "橋",
+    "url": "/audio/tai/橋__11699.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "燈": {
+    "translation": "燈",
+    "pronunciation": "ting",
+    "entryId": "11770",
+    "label": "燈",
+    "url": "/audio/tai/燈__11770.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "糖": {
+    "translation": "糖",
+    "pronunciation": null,
+    "entryId": "11827",
+    "label": "糖",
+    "url": "/audio/tai/糖__11827.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "貓": {
+    "translation": "貓",
+    "pronunciation": "niau",
+    "entryId": "11905",
+    "label": "貓",
+    "url": "/audio/tai/貓__11905.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "辦公室": {
+    "translation": "辦公室",
+    "pronunciation": null,
+    "entryId": "22325",
+    "label": "辦公室",
+    "url": "/audio/tai/辦公室__22325.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "錢": {
+    "translation": "錢",
+    "pronunciation": "tsînn",
+    "entryId": "11988",
+    "label": "錢",
+    "url": "/audio/tai/錢__11988.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "錢袋": {
+    "translation": "錢袋仔",
+    "pronunciation": "tsînn-tē-á",
+    "entryId": "12014",
+    "label": "錢袋仔",
+    "url": "/audio/tai/錢袋__12014.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "錢櫃": {
+    "translation": "錢櫃",
+    "pronunciation": null,
+    "entryId": "12025",
+    "label": "錢櫃",
+    "url": "/audio/tai/錢櫃__12025.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "錶": {
+    "translation": "錶",
+    "pronunciation": null,
+    "entryId": "11990",
+    "label": "錶",
+    "url": "/audio/tai/錶__11990.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "靜坐": {
+    "translation": "靜坐",
+    "pronunciation": null,
+    "entryId": "12002",
+    "label": "靜坐",
+    "url": "/audio/tai/靜坐__12002.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "頭": {
+    "translation": "頭",
+    "pronunciation": "thâu",
+    "entryId": "12031",
+    "label": "頭",
+    "url": "/audio/tai/頭__12031.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "頭痛": {
+    "translation": "頭疼",
+    "pronunciation": "thâu-thiànn",
+    "entryId": "12064",
+    "label": "頭疼",
+    "url": "/audio/tai/頭痛__12064.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "頭髮": {
+    "translation": "頭毛",
+    "pronunciation": "thâu-mn̂g",
+    "entryId": "12041",
+    "label": "頭毛",
+    "url": "/audio/tai/頭髮__12041.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鴨": {
+    "translation": "鴨",
+    "pronunciation": null,
+    "entryId": "12089",
+    "label": "鴨",
+    "url": "/audio/tai/鴨__12089.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鴨肉": {
+    "translation": "鴨肉",
+    "pronunciation": null,
+    "entryId": "28620",
+    "label": "鴨肉",
+    "url": "/audio/tai/鴨肉__28620.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "龍蝦": {
+    "translation": "龍蝦",
+    "pronunciation": null,
+    "entryId": "12117",
+    "label": "龍蝦",
+    "url": "/audio/tai/龍蝦__12117.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "幫": {
+    "translation": "幫",
+    "pronunciation": null,
+    "entryId": "12136",
+    "label": "幫",
+    "url": "/audio/tai/幫__12136.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "幫忙": {
+    "translation": "幫忙",
+    "pronunciation": null,
+    "entryId": "12154",
+    "label": "幫忙",
+    "url": "/audio/tai/幫忙__12154.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "幫助": {
+    "translation": "幫助",
+    "pronunciation": null,
+    "entryId": "12157",
+    "label": "幫助",
+    "url": "/audio/tai/幫助__12157.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "幫贊": {
+    "translation": "幫贊",
+    "pronunciation": null,
+    "entryId": "12181",
+    "label": "幫贊",
+    "url": "/audio/tai/幫贊__12181.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "牆": {
+    "translation": "牆",
+    "pronunciation": null,
+    "entryId": "12211",
+    "label": "牆",
+    "url": "/audio/tai/牆__12211.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "牆仔": {
+    "translation": "牆仔",
+    "pronunciation": null,
+    "entryId": "12214",
+    "label": "牆仔",
+    "url": "/audio/tai/牆仔__12214.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鍋": {
+    "translation": "鍋",
+    "pronunciation": null,
+    "entryId": "12416",
+    "label": "鍋",
+    "url": "/audio/tai/鍋__12416.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "點": {
+    "translation": "點",
+    "pronunciation": null,
+    "entryId": "12451",
+    "label": "點",
+    "url": "/audio/tai/點__12451.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "櫃": {
+    "translation": "櫃",
+    "pronunciation": null,
+    "entryId": "12506",
+    "label": "櫃",
+    "url": "/audio/tai/櫃__12506.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "櫃台": {
+    "translation": "櫃台",
+    "pronunciation": "kuī-tâi",
+    "entryId": "22850",
+    "label": "櫃台",
+    "url": "/audio/tai/櫃台__22850.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "醫": {
+    "translation": "醫",
+    "pronunciation": "i",
+    "entryId": "12650",
+    "label": "醫",
+    "url": "/audio/tai/醫__12650.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "醫生": {
+    "translation": "醫生",
+    "pronunciation": "i-sing",
+    "entryId": "12673",
+    "label": "醫生",
+    "url": "/audio/tai/醫生__12673.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "醫藥": {
+    "translation": "醫藥",
+    "pronunciation": "i-io̍h",
+    "entryId": "25392",
+    "label": "醫藥",
+    "url": "/audio/tai/醫藥__25392.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "醫護": {
+    "translation": "醫護",
+    "pronunciation": "i-hōo",
+    "entryId": "24172",
+    "label": "醫護",
+    "url": "/audio/tai/醫護__24172.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鎖": {
+    "translation": "鎖",
+    "pronunciation": null,
+    "entryId": "12652",
+    "label": "鎖",
+    "url": "/audio/tai/鎖__12652.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鎖匙": {
+    "translation": "鎖匙",
+    "pronunciation": null,
+    "entryId": "12701",
+    "label": "鎖匙",
+    "url": "/audio/tai/鎖匙__12701.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "雞": {
+    "translation": "雞",
+    "pronunciation": "ke",
+    "entryId": "12657",
+    "label": "雞",
+    "url": "/audio/tai/雞__12657.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "雞肉": {
+    "translation": "雞肉",
+    "pronunciation": "ke-bah",
+    "entryId": "26735",
+    "label": "雞肉",
+    "url": "/audio/tai/雞肉__26735.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "雞蛋": {
+    "translation": "雞卵",
+    "pronunciation": "ke-nn̄g",
+    "entryId": "12679",
+    "label": "雞卵",
+    "url": "/audio/tai/雞蛋__12679.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鵝": {
+    "translation": "鵝",
+    "pronunciation": null,
+    "entryId": "12759",
+    "label": "鵝",
+    "url": "/audio/tai/鵝__12759.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "櫥窗": {
+    "translation": "櫥窗",
+    "pronunciation": null,
+    "entryId": "23676",
+    "label": "櫥窗",
+    "url": "/audio/tai/櫥窗__23676.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "藥": {
+    "translation": "藥",
+    "pronunciation": "io̍h",
+    "entryId": "12836",
+    "label": "藥",
+    "url": "/audio/tai/藥__12836.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "藥丸": {
+    "translation": "藥丸",
+    "pronunciation": "io̍h-uân",
+    "entryId": "12838",
+    "label": "藥丸",
+    "url": "/audio/tai/藥丸__12838.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "藥水": {
+    "translation": "藥水",
+    "pronunciation": "io̍h-tsuí",
+    "entryId": "12841",
+    "label": "藥水",
+    "url": "/audio/tai/藥水__12841.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "藥局": {
+    "translation": "藥局",
+    "pronunciation": "io̍h-ki̍k",
+    "entryId": "12847",
+    "label": "藥局",
+    "url": "/audio/tai/藥局__12847.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "藥單": {
+    "translation": "藥單",
+    "pronunciation": "io̍h-tuann",
+    "entryId": "12857",
+    "label": "藥單",
+    "url": "/audio/tai/藥單__12857.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鏡": {
+    "translation": "鏡",
+    "pronunciation": null,
+    "entryId": "12897",
+    "label": "鏡",
+    "url": "/audio/tai/鏡__12897.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鏡框": {
+    "translation": "鏡框",
+    "pronunciation": null,
+    "entryId": "12912",
+    "label": "鏡框",
+    "url": "/audio/tai/鏡框__12912.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鏡頭": {
+    "translation": "鏡頭",
+    "pronunciation": null,
+    "entryId": "12921",
+    "label": "鏡頭",
+    "url": "/audio/tai/鏡頭__12921.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "關門": {
+    "translation": "關門",
+    "pronunciation": "kuainn-mn̂g",
+    "entryId": "12909",
+    "label": "關門",
+    "url": "/audio/tai/關門__12909.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "關機": {
+    "translation": "關機",
+    "pronunciation": "kuainn-ki",
+    "entryId": "23542",
+    "label": "關機",
+    "url": "/audio/tai/關機__23542.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "爐": {
+    "translation": "灶",
+    "pronunciation": "tsàu",
+    "entryId": "3288",
+    "label": "灶",
+    "url": "/audio/tai/爐__3288.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "蘋果": {
+    "translation": "蘋果",
+    "pronunciation": null,
+    "entryId": "13020",
+    "label": "蘋果",
+    "url": "/audio/tai/蘋果__13020.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "警察局": {
+    "translation": "警察局",
+    "pronunciation": null,
+    "entryId": "13036",
+    "label": "警察局",
+    "url": "/audio/tai/警察局__13036.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鐘": {
+    "translation": "鐘",
+    "pronunciation": null,
+    "entryId": "13041",
+    "label": "鐘",
+    "url": "/audio/tai/鐘__13041.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "麵": {
+    "translation": "麵",
+    "pronunciation": null,
+    "entryId": "13053",
+    "label": "麵",
+    "url": "/audio/tai/麵__13053.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鐵窗": {
+    "translation": "鐵窗",
+    "pronunciation": null,
+    "entryId": "28908",
+    "label": "鐵窗",
+    "url": "/audio/tai/鐵窗__28908.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "聽力": {
+    "translation": "聽力",
+    "pronunciation": null,
+    "entryId": "25409",
+    "label": "聽力",
+    "url": "/audio/tai/聽力__25409.mp3",
+    "via": "translation_raw_ods_exact"
+  },
+  "鹽": {
+    "translation": "鹽",
+    "pronunciation": null,
+    "entryId": "13354",
+    "label": "鹽",
+    "url": "/audio/tai/鹽__13354.mp3",
+    "via": "translation_raw_ods_exact"
+  }
+}
