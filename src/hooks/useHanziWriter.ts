@@ -42,12 +42,14 @@ export interface UseHanziWriterOptions {
   height?: number;
   strokeColor?: string;
   outlineColor?: string;
+  highlightColor?: string;
   showOutline?: boolean;
   strokeAnimationSpeed?: number;
   strokeHighlightSpeed?: number;
   strokeHighlightDuration?: number;
   delayBetweenStrokes?: number;
   quizHintAfterMisses?: number;
+  autoHighlightNextStrokeInQuiz?: boolean;
 }
 
 interface StrokeData {
@@ -62,6 +64,7 @@ type HanziWriterWithInternals = HanziWriter & {
   _renderState?: {
     cancelAll: () => void;
   };
+  highlightStroke?: (strokeNum: number, options?: { onComplete?: () => void }) => Promise<unknown> | undefined;
 };
 
 export interface UseHanziWriterReturn {
@@ -88,9 +91,11 @@ export function useHanziWriter(
     strokeHighlightDuration,
     delayBetweenStrokes =300,
     quizHintAfterMisses = 2,
+    autoHighlightNextStrokeInQuiz = false,
   } = options;
   const strokeColor = options.strokeColor ?? readCssToken('--color-text', '#333333');
   const outlineColor = options.outlineColor ?? readCssToken('--color-border-subtle', '#dddddd');
+  const highlightColor = options.highlightColor ?? readCssToken('--color-warning', '#f39c12');
 
   const containerRef = useRef<HTMLDivElement | null>(null);
   const writerRef = useRef<HanziWriter | null>(null);
@@ -112,6 +117,7 @@ export function useHanziWriter(
       padding: 5,
       strokeColor,
       outlineColor,
+      highlightColor,
       showOutline,
       strokeAnimationSpeed,
       strokeHighlightSpeed,
@@ -127,7 +133,7 @@ export function useHanziWriter(
       writerRef.current = null;
       readyRef.current = null;
     };
-  }, [character, width, height, strokeColor, outlineColor, showOutline, strokeAnimationSpeed, strokeHighlightSpeed, strokeHighlightDuration, delayBetweenStrokes]);
+  }, [character, width, height, strokeColor, outlineColor, highlightColor, showOutline, strokeAnimationSpeed, strokeHighlightSpeed, strokeHighlightDuration, delayBetweenStrokes]);
 
   const animate = useCallback((): Promise<void> => {
     return new Promise((resolve) => {
@@ -160,15 +166,30 @@ export function useHanziWriter(
       const ready = readyRef.current ?? Promise.resolve();
       ready.then(() => {
         if (!writerRef.current) return;
-        writerRef.current.quiz({
+        const writer = writerRef.current as HanziWriterWithInternals;
+        const highlightStroke = (strokeNum: number) => {
+          void writer.highlightStroke?.(strokeNum);
+        };
+
+        writer.quiz({
           showHintAfterMisses: quizHintAfterMisses,
-          onCorrectStroke: callbacks?.onCorrectStroke as never,
+          onCorrectStroke: ((data: StrokeData) => {
+            callbacks?.onCorrectStroke?.(data);
+            if (!autoHighlightNextStrokeInQuiz || data.strokesRemaining <= 0) {
+              return;
+            }
+            highlightStroke(data.strokeNum + 1);
+          }) as never,
           onMistake: callbacks?.onMistake as never,
           onComplete: callbacks?.onComplete as never,
         });
+
+        if (autoHighlightNextStrokeInQuiz) {
+          highlightStroke(0);
+        }
       });
     },
-    [quizHintAfterMisses],
+    [autoHighlightNextStrokeInQuiz, quizHintAfterMisses],
   );
 
   return { containerRef, animate, quiz, stop };

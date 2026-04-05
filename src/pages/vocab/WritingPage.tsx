@@ -11,6 +11,7 @@ import { NavBar } from '@/components/NavBar';
 import styles from './VocabPage.module.css';
 
 const WRITING_HINT_HIGHLIGHT_DURATION_MS = 1500;
+const WRITING_HINT_COLOR = '#f39c12';
 const PRACTICE_HINT_AFTER_MISSES = 0;
 const RECALL_HINT_AFTER_MISSES = 2;
 
@@ -134,9 +135,11 @@ export function WritingPage() {
             writerOptions={{
               width: canvasSize,
               height: canvasSize,
+              highlightColor: WRITING_HINT_COLOR,
               strokeHighlightDuration: WRITING_HINT_HIGHLIGHT_DURATION_MS,
               showOutline: !hideOutline,
               quizHintAfterMisses,
+              autoHighlightNextStrokeInQuiz: !hideOutline,
             }}
           />
         </div>
