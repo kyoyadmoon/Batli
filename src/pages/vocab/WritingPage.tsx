@@ -12,6 +12,8 @@ import styles from './VocabPage.module.css';
 
 const WRITING_HINT_HIGHLIGHT_DURATION_MS = 1500;
 const WRITING_HINT_COLOR = '#f39c12';
+const PRACTICE_HINT_HIGHLIGHT_SPEED = 0.5;
+const RECALL_HINT_HIGHLIGHT_SPEED = 1;
 const PRACTICE_HINT_AFTER_MISSES = 0;
 const RECALL_HINT_AFTER_MISSES = 2;
 
@@ -136,6 +138,9 @@ export function WritingPage() {
               width: canvasSize,
               height: canvasSize,
               highlightColor: WRITING_HINT_COLOR,
+              strokeHighlightSpeed: hideOutline
+                ? RECALL_HINT_HIGHLIGHT_SPEED
+                : PRACTICE_HINT_HIGHLIGHT_SPEED,
               strokeHighlightDuration: WRITING_HINT_HIGHLIGHT_DURATION_MS,
               showOutline: !hideOutline,
               quizHintAfterMisses,
