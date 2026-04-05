@@ -10,7 +10,7 @@ import { StrokeCanvas } from '@/components/StrokeCanvas';
 import { NavBar } from '@/components/NavBar';
 import styles from './VocabPage.module.css';
 
-const WRITING_HINT_HIGHLIGHT_SPEED = 1;
+const WRITING_HINT_HIGHLIGHT_DURATION_MS = 1500;
 const PRACTICE_HINT_AFTER_MISSES = 0;
 const RECALL_HINT_AFTER_MISSES = 2;
 
@@ -134,7 +134,7 @@ export function WritingPage() {
             writerOptions={{
               width: canvasSize,
               height: canvasSize,
-              strokeHighlightSpeed: WRITING_HINT_HIGHLIGHT_SPEED,
+              strokeHighlightDuration: WRITING_HINT_HIGHLIGHT_DURATION_MS,
               showOutline: !hideOutline,
               quizHintAfterMisses,
             }}

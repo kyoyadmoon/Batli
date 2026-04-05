@@ -45,6 +45,7 @@ export interface UseHanziWriterOptions {
   showOutline?: boolean;
   strokeAnimationSpeed?: number;
   strokeHighlightSpeed?: number;
+  strokeHighlightDuration?: number;
   delayBetweenStrokes?: number;
   quizHintAfterMisses?: number;
 }
@@ -84,6 +85,7 @@ export function useHanziWriter(
     showOutline = true,
     strokeAnimationSpeed = 1,
     strokeHighlightSpeed = 1,
+    strokeHighlightDuration,
     delayBetweenStrokes =300,
     quizHintAfterMisses = 2,
   } = options;
@@ -113,6 +115,7 @@ export function useHanziWriter(
       showOutline,
       strokeAnimationSpeed,
       strokeHighlightSpeed,
+      strokeHighlightDuration,
       delayBetweenStrokes,
       charDataLoader: charDataLoader as Parameters<typeof HanziWriter.create>[2] extends infer O ? O extends { charDataLoader?: infer L } ? L : never : never,
       onLoadCharDataSuccess: () => resolveReady(),
@@ -124,7 +127,7 @@ export function useHanziWriter(
       writerRef.current = null;
       readyRef.current = null;
     };
-  }, [character, width, height, strokeColor, outlineColor, showOutline, strokeAnimationSpeed, strokeHighlightSpeed, delayBetweenStrokes]);
+  }, [character, width, height, strokeColor, outlineColor, showOutline, strokeAnimationSpeed, strokeHighlightSpeed, strokeHighlightDuration, delayBetweenStrokes]);
 
   const animate = useCallback((): Promise<void> => {
     return new Promise((resolve) => {
