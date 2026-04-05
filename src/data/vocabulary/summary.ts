@@ -10,7 +10,7 @@ export interface VocabUnitSummary {
 export const vocabularyUnitSummaries: readonly VocabUnitSummary[] = [
   {
     id: 'unit-numbers-time',
-    title: '數字與時間',
+    title: '時',
     icon: '🕐',
     voiceIntro: '我們來學數字和時間相關的字',
     order: 0,
@@ -18,7 +18,7 @@ export const vocabularyUnitSummaries: readonly VocabUnitSummary[] = [
   },
   {
     id: 'unit-family',
-    title: '家庭',
+    title: '家',
     icon: '🏡',
     voiceIntro: '我們來學家庭相關的字',
     order: 1,
@@ -50,7 +50,7 @@ export const vocabularyUnitSummaries: readonly VocabUnitSummary[] = [
   },
   {
     id: 'unit-transportation',
-    title: '交通',
+    title: '行',
     icon: '🚌',
     voiceIntro: '我們來學交通相關的字',
     order: 5,
@@ -66,7 +66,7 @@ export const vocabularyUnitSummaries: readonly VocabUnitSummary[] = [
   },
   {
     id: 'unit-appliances',
-    title: '家用電器',
+    title: '電',
     icon: '📺',
     voiceIntro: '我們來學家用電器相關的字',
     order: 8,
@@ -74,7 +74,7 @@ export const vocabularyUnitSummaries: readonly VocabUnitSummary[] = [
   },
   {
     id: 'unit-activities',
-    title: '日常活動',
+    title: '活',
     icon: '🏃',
     voiceIntro: '我們來學日常活動相關的字',
     order: 9,
@@ -82,7 +82,7 @@ export const vocabularyUnitSummaries: readonly VocabUnitSummary[] = [
   },
   {
     id: 'unit-furniture',
-    title: '家具',
+    title: '住',
     icon: '🛋️',
     voiceIntro: '我們來學家具相關的字',
     order: 10,

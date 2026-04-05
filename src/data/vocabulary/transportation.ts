@@ -2,7 +2,7 @@ import type { VocabUnit } from '../types';
 
 export const transportationUnit: VocabUnit = {
   id: 'unit-transportation',
-  title: '交通',
+  title: '行',
   icon: '🚌',
   voiceIntro: '我們來學交通相關的字',
   order: 5,

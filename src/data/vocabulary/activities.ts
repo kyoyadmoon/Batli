@@ -2,7 +2,7 @@ import type { VocabUnit } from '../types';
 
 export const activitiesUnit: VocabUnit = {
   id: 'unit-activities',
-  title: '日常活動',
+  title: '活',
   icon: '🏃',
   voiceIntro: '我們來學日常活動相關的字',
   order: 9,

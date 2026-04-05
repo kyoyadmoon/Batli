@@ -2,7 +2,7 @@ import type { VocabUnit } from '../types';
 
 export const numbersTimeUnit: VocabUnit = {
   id: 'unit-numbers-time',
-  title: '數字與時間',
+  title: '時',
   icon: '🕐',
   voiceIntro: '我們來學數字和時間相關的字',
   order: 0,

@@ -2,7 +2,7 @@ import type { VocabUnit } from '../types';
 
 export const familyUnit: VocabUnit = {
   id: 'unit-family',
-  title: '家庭',
+  title: '家',
   icon: '🏡',
   voiceIntro: '我們來學家庭相關的字',
   order: 1,

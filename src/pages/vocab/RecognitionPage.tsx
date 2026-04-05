@@ -6,6 +6,8 @@ import { useHelperLang } from '@/i18n';
 import { NavBar } from '@/components/NavBar';
 import styles from './VocabPage.module.css';
 
+const RELATED_WORDS_SPEECH_RATE = 0.72;
+
 function IllustrationCard({ imageRef, character }: { imageRef: string; character: string }) {
   const [hasError, setHasError] = useState(false);
 
@@ -198,7 +200,7 @@ export function RecognitionPage() {
                     <button
                       type="button"
                       className={styles.relatedMainButton}
-                      onClick={() => speak(item.pronunciation ?? item.word)}
+                      onClick={() => speak(item.pronunciation ?? item.word, { rate: RELATED_WORDS_SPEECH_RATE })}
                       aria-label={`播放中文發音：${item.word}`}
                     >
                       <span className={styles.relatedMainBadge} aria-hidden="true">
@@ -246,7 +248,7 @@ export function RecognitionPage() {
                         <button
                           type="button"
                           className={styles.relatedHelperButton}
-                          onClick={() => speak(hw.translation)}
+                          onClick={() => speak(hw.translation, { rate: RELATED_WORDS_SPEECH_RATE })}
                           aria-label={`播放${helperActionLabel}：${hw.translation}`}
                         >
                           <span className={styles.relatedHelperBadge} aria-hidden="true">

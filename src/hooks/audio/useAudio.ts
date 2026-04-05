@@ -3,15 +3,17 @@ import { useHelperLang } from '@/i18n';
 import { getGuideSpeechLang, getGuideSpeechText } from '@/i18n/guideSpeech';
 import { getEncouragements, getRetryMessages, randomPick } from './encouragements';
 import { bindIOSUnlockListeners } from './engines/iosUnlock';
-import { mp3Engine } from './engines/mp3Engine';
+import { mp3Engine, type PlayMp3Options } from './engines/mp3Engine';
 import { speechEngine, type SpeakOptions } from './engines/speechEngine';
 import { toneEngine } from './engines/toneEngine';
 
+type UseSpeakOptions = Pick<SpeakOptions, 'interrupt' | 'rate'>;
+
 export interface UseAudioReturn {
-  speak: (text: string, options?: { interrupt?: boolean }) => void;
+  speak: (text: string, options?: UseSpeakOptions) => void;
   speakGuide: (chineseText: string) => void;
   speakGuideRaw: (text: string) => void;
-  playTaiAudio: (term: string) => boolean;
+  playTaiAudio: (term: string, options?: PlayMp3Options) => boolean;
   hasTaiAudio: (term: string) => boolean;
   playCorrect: () => void;
   playIncorrect: () => void;
@@ -44,9 +46,10 @@ export function useAudio(): UseAudioReturn {
   }, []);
 
   const speak = useCallback(
-    (text: string, options?: { interrupt?: boolean }) => {
+    (text: string, options?: UseSpeakOptions) => {
       speechEngine.speak(text, {
         ...DEFAULT_SPEECH_OPTIONS,
+        rate: options?.rate ?? DEFAULT_SPEECH_OPTIONS.rate,
         interrupt: options?.interrupt,
       });
     },
@@ -80,7 +83,10 @@ export function useAudio(): UseAudioReturn {
     [guideText, speakGuideRaw],
   );
 
-  const playTaiAudio = useCallback((term: string) => mp3Engine.play(term), []);
+  const playTaiAudio = useCallback(
+    (term: string, options?: PlayMp3Options) => mp3Engine.play(term, options),
+    [],
+  );
 
   const hasTaiAudio = useCallback((term: string) => mp3Engine.hasTermAudio(term), []);
 

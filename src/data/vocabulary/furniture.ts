@@ -2,7 +2,7 @@ import type { VocabUnit } from '../types';
 
 export const furnitureUnit: VocabUnit = {
   id: 'unit-furniture',
-  title: '家具',
+  title: '住',
   icon: '🛋️',
   voiceIntro: '我們來學家具相關的字',
   order: 10,

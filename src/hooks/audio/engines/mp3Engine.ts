@@ -13,8 +13,12 @@ export function hasTaiAudio(term: string): boolean {
   return hasTaiAudioEntry(manifest, term);
 }
 
+export interface PlayMp3Options {
+  playbackRate?: number;
+}
+
 export interface Mp3Engine {
-  play: (term: string) => boolean;
+  play: (term: string, options?: PlayMp3Options) => boolean;
   cancel: () => void;
   hasTermAudio: (term: string) => boolean;
   isSupported: () => boolean;
@@ -57,7 +61,7 @@ export function createMp3Engine(options: CreateMp3EngineOptions = {}): Mp3Engine
 
   const hasTermAudio = (term: string): boolean => isSupported() && hasTaiAudioEntry(data, term);
 
-  const play = (term: string): boolean => {
+  const play = (term: string, playOptions: PlayMp3Options = {}): boolean => {
     const AudioElement = getAudioCtor();
     const entry = data[term];
     if (!AudioElement || !entry) {
@@ -70,7 +74,11 @@ export function createMp3Engine(options: CreateMp3EngineOptions = {}): Mp3Engine
       ? `${baseUrl}${entry.url.slice(1)}`
       : entry.url;
     const audio = new AudioElement(resolvedUrl);
+    const playbackRate = playOptions.playbackRate;
     audio.preload = 'auto';
+    audio.playbackRate = typeof playbackRate === 'number' && Number.isFinite(playbackRate) && playbackRate > 0
+      ? playbackRate
+      : 1;
     currentAudio = audio;
 
     const clearCurrentAudio = () => {

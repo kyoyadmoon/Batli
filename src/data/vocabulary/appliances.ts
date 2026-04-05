@@ -2,7 +2,7 @@ import type { VocabUnit } from '../types';
 
 export const appliancesUnit: VocabUnit = {
   id: 'unit-appliances',
-  title: '家用電器',
+  title: '電',
   icon: '📺',
   voiceIntro: '我們來學家用電器相關的字',
   order: 8,
