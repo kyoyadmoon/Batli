@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { vocabularyModule, generateVocabListeningQuiz } from '@/data';
 import type { VocabCharacter, QuizQuestion } from '@/data';
@@ -10,8 +10,6 @@ import styles from './VocabPage.module.css';
 
 const AUTO_PLAY_LIMIT = 3;
 const AUTO_PLAY_INTERVAL_MS = 10_000;
-const CORRECT_ANSWER_ADVANCE_DELAY_MS = 3_500;
-
 function shuffleOptions(question: QuizQuestion<VocabCharacter>): VocabCharacter[] {
   const all = [question.correctAnswer, ...question.distractors];
   for (let i = all.length - 1; i > 0; i--) {
@@ -33,7 +31,6 @@ export function ListeningPage() {
   const vocab = unit?.characters[charIndex];
 
   const [answered, setAnswered] = useState(false);
-  const advanceTimerRef = useRef<number | null>(null);
 
   const question = useMemo(() => {
     if (!vocab || !unit) return null;
@@ -78,13 +75,7 @@ export function ListeningPage() {
     };
   }, [question, answered, speak, cancelAll]);
 
-  useEffect(() => () => {
-    if (advanceTimerRef.current !== null) {
-      window.clearTimeout(advanceTimerRef.current);
-      advanceTimerRef.current = null;
-    }
-    cancelAll();
-  }, [cancelAll]);
+  useEffect(() => cancelAll, [cancelAll]);
 
   const handleAnswer = useCallback(
     (selected: VocabCharacter) => {
@@ -94,23 +85,22 @@ export function ListeningPage() {
 
       if (selected.character === question.correctAnswer.character) {
         setAnswered(true);
-        advanceTimerRef.current = window.setTimeout(() => {
-          advanceTimerRef.current = null;
-          speakGuide('接下來，寫一寫');
-          navigate(`/vocab/${unitId}/writing/${charIndex}`);
-        }, CORRECT_ANSWER_ADVANCE_DELAY_MS);
       } else {
         flashWrongAnswer(selected.character);
       }
     },
-    [answered, question, speak, flashWrongAnswer, speakGuide, navigate, unitId, charIndex],
+    [answered, question, speak, flashWrongAnswer],
   );
 
-  const handleSkip = useCallback(() => {
+  const handleNext = useCallback(() => {
     if (!unitId) return;
-    speakGuide('先跳到寫一寫');
+    if (answered) {
+      speakGuide('接下來，寫一寫');
+    } else {
+      speakGuide('先跳到寫一寫');
+    }
     navigate(`/vocab/${unitId}/writing/${charIndex}`);
-  }, [unitId, charIndex, speakGuide, navigate]);
+  }, [answered, unitId, charIndex, speakGuide, navigate]);
 
   if (!unit || !vocab || !question) return null;
 
@@ -192,7 +182,7 @@ export function ListeningPage() {
         </div>
       </div>
 
-      <NavBar showBack onNext={handleSkip} nextLabel="先跳過" />
+      <NavBar showBack onNext={handleNext} nextLabel={answered ? '下一步' : '先跳過'} />
     </div>
   );
 }

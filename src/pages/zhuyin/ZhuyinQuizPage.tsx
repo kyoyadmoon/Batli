@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { zhuyinModule, generateZhuyinQuiz } from '@/data';
 import type { ZhuyinSymbol, QuizQuestion } from '@/data';
@@ -11,8 +11,6 @@ import { NavBar } from '@/components/NavBar';
 import styles from './ZhuyinQuizPage.module.css';
 
 const TOTAL_QUESTIONS = 5;
-const CORRECT_ANSWER_ADVANCE_DELAY_MS = 3_500;
-
 function shuffleOptions(question: QuizQuestion<ZhuyinSymbol>): ZhuyinSymbol[] {
   const all = [question.correctAnswer, ...question.distractors];
   for (let i = all.length - 1; i > 0; i--) {
@@ -34,7 +32,6 @@ export function ZhuyinQuizPage() {
 
   const [questionIndex, setQuestionIndex] = useState(0);
   const [answered, setAnswered] = useState(false);
-  const advanceTimerRef = useRef<number | null>(null);
 
   const question = useMemo(() => {
     const target = quizPool[questionIndex % quizPool.length];
@@ -55,13 +52,7 @@ export function ZhuyinQuizPage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [questionIndex]);
 
-  useEffect(() => () => {
-    if (advanceTimerRef.current !== null) {
-      window.clearTimeout(advanceTimerRef.current);
-      advanceTimerRef.current = null;
-    }
-    cancelAll();
-  }, [cancelAll]);
+  useEffect(() => cancelAll, [cancelAll]);
 
   const handleAnswer = useCallback(
     (selected: ZhuyinSymbol) => {
@@ -71,23 +62,26 @@ export function ZhuyinQuizPage() {
         setAnswered(true);
         markZhuyinLearned(selected.symbol);
         playCorrect();
-        advanceTimerRef.current = window.setTimeout(() => {
-          advanceTimerRef.current = null;
-          if (questionIndex + 1 >= TOTAL_QUESTIONS) {
-            speakGuide('太厲害了！注音測驗完成');
-            navigate('/');
-            window.setTimeout(openTopicMenu, 0);
-          } else {
-            setAnswered(false);
-            setQuestionIndex((i) => i + 1);
-          }
-        }, CORRECT_ANSWER_ADVANCE_DELAY_MS);
       } else {
         flashWrongAnswer(selected.symbol);
       }
     },
-    [answered, question, questionIndex, markZhuyinLearned, playCorrect, flashWrongAnswer, speakGuide, navigate, openTopicMenu],
+    [answered, question, markZhuyinLearned, playCorrect, flashWrongAnswer],
   );
+
+  const handleNext = useCallback(() => {
+    if (!answered) return;
+
+    if (questionIndex + 1 >= TOTAL_QUESTIONS) {
+      speakGuide('太厲害了！注音測驗完成');
+      navigate('/');
+      openTopicMenu();
+      return;
+    }
+
+    setAnswered(false);
+    setQuestionIndex((current) => current + 1);
+  }, [answered, questionIndex, speakGuide, navigate, openTopicMenu]);
 
   return (
     <div className={styles.container}>
@@ -129,7 +123,11 @@ export function ZhuyinQuizPage() {
         </div>
       </div>
 
-      <NavBar showBack />
+      <NavBar
+        showBack
+        onNext={answered ? handleNext : undefined}
+        nextLabel={questionIndex + 1 >= TOTAL_QUESTIONS ? '完成單元' : '下一個'}
+      />
     </div>
   );
 }
