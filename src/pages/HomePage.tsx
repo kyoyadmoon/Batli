@@ -4,6 +4,7 @@ import { useLearning } from '@/context/LearningContext';
 import { useTopicMenu } from '@/context/TopicMenuContext';
 import { vocabularyUnitSummaries } from '@/data/vocabulary/summary';
 import { useAudio } from '@/hooks/audio';
+import { useHomeScreenInstall } from '@/hooks/useHomeScreenInstall';
 import { useHelperLang } from '@/i18n';
 import styles from './HomePage.module.css';
 
@@ -19,6 +20,7 @@ export function HomePage() {
   const { speakGuide, speakGuideRaw, guideTitle, isEnglishGuide } = useAudio();
   const { openTopicMenu } = useTopicMenu();
   const { totalCompleted, learnedVocab } = useLearning();
+  const { status: installStatus, requestInstall } = useHomeScreenInstall();
   const {
     lang,
     showPronunciation,
@@ -64,6 +66,23 @@ export function HomePage() {
     navigate('/settings');
   }, [navigate]);
 
+  const handleInstall = useCallback(async () => {
+    const result = await requestInstall();
+
+    if (result === 'manual-ios') {
+      const message = uiText('請按 Safari 下方的分享按鈕，再選「加入主畫面」。');
+      window.alert(message);
+      speakGuideRaw(message);
+      return;
+    }
+
+    if (result === 'manual-android') {
+      const message = uiText('請按瀏覽器右上角選單，再選「加入主畫面」或「安裝應用程式」。');
+      window.alert(message);
+      speakGuideRaw(message);
+    }
+  }, [requestInstall, speakGuideRaw, uiText]);
+
   const continueTitle = nextLesson
     ? totalCompleted > 0
       ? '繼續學習'
@@ -79,6 +98,16 @@ export function HomePage() {
   const settingsSummary = currentLangInfo.hasPronunciation
     ? `${currentLangInfo.nativeName} · ${uiText('顯示拼音')} ${showPronunciation ? 'ON' : 'OFF'}`
     : currentLangInfo.nativeName;
+  const installTitle = installStatus === 'installed'
+    ? uiText('已安裝到手機首頁')
+    : uiText('安裝到手機首頁');
+  const installSubtitle = installStatus === 'prompt'
+    ? uiText('點一下，直接安裝成 app')
+    : installStatus === 'manual-ios'
+      ? uiText('Safari 按分享，再選加入主畫面')
+      : installStatus === 'manual-android'
+        ? uiText('瀏覽器選單裡選加入主畫面')
+        : uiText('已安裝');
 
   return (
     <div className={styles.container}>
@@ -125,6 +154,33 @@ export function HomePage() {
               <span className={styles.secondaryArrow}>→</span>
             </div>
           </button>
+
+          {installStatus !== 'hidden' && (
+            <button
+              type="button"
+              className={`${styles.card} ${styles.installCard}`}
+              onClick={handleInstall}
+              aria-label={installTitle}
+              disabled={installStatus === 'installed'}
+            >
+              <div className={styles.installCardIconWrap}>
+                <span className={styles.installCardIcon} aria-hidden="true">
+                  📱
+                </span>
+              </div>
+
+              <div className={styles.installCardCopy}>
+                <div className={styles.installCardTitle}>{installTitle}</div>
+                <div className={styles.installCardSubtitle}>{installSubtitle}</div>
+              </div>
+
+              <div className={styles.secondaryActions} aria-hidden="true">
+                <span className={styles.secondaryArrow}>
+                  {installStatus === 'installed' ? '✓' : '→'}
+                </span>
+              </div>
+            </button>
+          )}
 
           <button
             type="button"

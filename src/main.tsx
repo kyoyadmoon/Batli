@@ -4,6 +4,7 @@ import { RouterProvider } from 'react-router-dom';
 import { getCompatibilityReport } from './compatibility/report';
 import { CompatibilityPage } from './pages/CompatibilityPage';
 import { LoadingPage } from './pages/LoadingPage';
+import { registerServiceWorker } from './pwa/registerServiceWorker';
 import { createAppRouter } from './router';
 import './styles/global.css';
 
@@ -39,6 +40,8 @@ function AppBootstrap() {
 
   return <RouterProvider router={router} />;
 }
+
+registerServiceWorker();
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
