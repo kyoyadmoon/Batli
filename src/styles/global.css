@@ -1,5 +1,11 @@
 @import './tokens.css';
 
+@font-face {
+  font-family: 'Noto Color Emoji Web';
+  src: url('../assets/fonts/NotoColorEmoji.ttf') format('truetype');
+  font-display: swap;
+}
+
 *,
 *::before,
 *::after {

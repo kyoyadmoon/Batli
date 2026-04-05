@@ -73,6 +73,7 @@ export const enUi: HelperWordSet['ui'] = {
   '授權資訊': { translation: 'Credits & Licenses' },
   '國語授權資訊': { translation: 'MOE Mandarin license' },
   '台語語音': { translation: 'Taiwanese Audio' },
+  'Emoji 字型': { translation: 'Emoji Font' },
   '教育部《臺灣台語常用詞辭典》': { translation: 'MOE Taiwanese Hokkien Dictionary' },
   '漢字筆順': { translation: 'Character Strokes' },
   '課程內容': { translation: 'Curriculum' },

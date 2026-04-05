@@ -73,6 +73,7 @@ export const zhUi: HelperWordSet['ui'] = {
   '授權資訊': { translation: '資料來源與授權說明' },
   '國語授權資訊': { translation: '教育部《國語辭典簡編本》授權資訊' },
   '台語語音': { translation: '台語語音' },
+  'Emoji 字型': { translation: 'Emoji 字型' },
   '教育部《臺灣台語常用詞辭典》': { translation: '教育部《臺灣台語常用詞辭典》' },
   '漢字筆順': { translation: '漢字筆順資料' },
   '課程內容': { translation: '課程內容' },

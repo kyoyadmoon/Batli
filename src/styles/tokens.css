@@ -27,6 +27,7 @@
   --font-size-2xl: 72px;
   --font-size-3xl: 120px;
   --font-family: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+  --font-family-emoji: 'Noto Color Emoji Web', 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
 
   /* Spacing */
   --space-xs: 8px;

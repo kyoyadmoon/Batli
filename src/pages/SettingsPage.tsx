@@ -302,6 +302,23 @@ export function SettingsPage() {
           </div>
 
           <div className={styles.creditItem}>
+            <div className={styles.creditLabel}>{uiText('Emoji 字型')}</div>
+            <div className={styles.creditBody}>
+              Noto Color Emoji
+              <br />
+              <a
+                href="https://github.com/googlefonts/noto-emoji"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.creditLink}
+              >
+                github.com/googlefonts/noto-emoji
+              </a>
+              <div className={styles.creditLicense}>SIL Open Font License 1.1</div>
+            </div>
+          </div>
+
+          <div className={styles.creditItem}>
             <div className={styles.creditLabel}>{uiText('漢字筆順')}</div>
             <div className={styles.creditBody}>
               <a

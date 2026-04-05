@@ -269,8 +269,10 @@
 }
 
 .relatedEmoji {
+  font-family: var(--font-family-emoji);
   font-size: clamp(2.8rem, 5vw, 4rem);
   line-height: 1;
+  min-height: 1em;
 }
 
 .relatedWord {
