@@ -62,6 +62,17 @@ export function HomePage() {
     navigate(`/vocab/${nextLesson.unit.id}/recognition/${nextLesson.index}`);
   }, [guideTitle, isEnglishGuide, navigate, nextLesson, openTopicMenu, speakGuide, speakGuideRaw]);
 
+  const hasHistory = totalCompleted > 0;
+
+  const handlePrimaryAction = useCallback(() => {
+    if (hasHistory) {
+      handleContinue();
+      return;
+    }
+
+    handleStart();
+  }, [handleContinue, handleStart, hasHistory]);
+
   const handleOpenSettings = useCallback(() => {
     navigate('/settings');
   }, [navigate]);
@@ -83,17 +94,16 @@ export function HomePage() {
     }
   }, [requestInstall, speakGuideRaw, uiText]);
 
-  const continueTitle = nextLesson
-    ? totalCompleted > 0
-      ? '繼續學習'
-      : '從第一課開始'
-    : '查看主題';
-  const continueSubtitle = nextLesson ? uiText(nextLesson.unit.title) : uiText('所有主題');
-  const continueMeta = totalCompleted > 0 ? `${uiText('已完成')} ${totalCompleted} ${uiText('項目')}` : '';
+  const primaryTitle = hasHistory ? '繼續學習' : '開始學習';
+  const primarySubtitle = hasHistory
+    ? (nextLesson ? uiText(nextLesson.unit.title) : uiText('所有主題'))
+    : uiText('查看主題');
+  const primaryMeta = hasHistory ? `${uiText('已完成')} ${totalCompleted} ${uiText('項目')}` : '';
+  const topicTitle = uiText('查看主題');
+  const topicSubtitle = uiText('所有主題');
   const progressBadge = getProgressBadge(totalCompleted);
   const titleText = uiText('開始上課');
-  const startTitle = uiText('開始學習');
-  const continueDisplayTitle = uiText(continueTitle);
+  const primaryDisplayTitle = uiText(primaryTitle);
   const currentLangInfo = availableLanguages.find((item) => item.code === lang) ?? availableLanguages[0];
   const settingsSummary = currentLangInfo.hasPronunciation
     ? `${currentLangInfo.nativeName} · ${uiText('顯示拼音')} ${showPronunciation ? 'ON' : 'OFF'}`
@@ -118,36 +128,37 @@ export function HomePage() {
           <button
             type="button"
             className={`${styles.card} ${styles.primaryCard}`}
-            onClick={handleStart}
-            aria-label="開始學習，直接選主題"
+            onClick={handlePrimaryAction}
+            aria-label={primaryDisplayTitle}
           >
             <div className={styles.primaryIconWrap}>
               <span className={styles.primaryIcon} aria-hidden="true">
-                📖
+                {hasHistory ? progressBadge : '📖'}
               </span>
             </div>
 
             <div className={styles.primaryCopy}>
-              <div className={styles.primaryTitle}>{startTitle}</div>
+              <div className={styles.primaryTitle}>{primaryDisplayTitle}</div>
+              <div className={styles.primarySubtitle}>{primarySubtitle}</div>
+              {primaryMeta && <div className={styles.primaryMeta}>{primaryMeta}</div>}
             </div>
           </button>
 
           <button
             type="button"
             className={`${styles.card} ${styles.secondaryCard}`}
-            onClick={handleContinue}
-            aria-label={continueTitle}
+            onClick={handleStart}
+            aria-label={topicTitle}
           >
             <div className={styles.secondaryIconTile}>
               <span className={styles.secondaryIcon} aria-hidden="true">
-                {progressBadge}
+                🗂️
               </span>
             </div>
 
             <div className={styles.secondaryCopy}>
-              <div className={styles.secondaryTitle}>{continueDisplayTitle}</div>
-              <div className={styles.secondarySubtitle}>{continueSubtitle}</div>
-              {continueMeta && <div className={styles.secondaryMeta}>{continueMeta}</div>}
+              <div className={styles.secondaryTitle}>{topicTitle}</div>
+              <div className={styles.secondarySubtitle}>{topicSubtitle}</div>
             </div>
 
             <div className={styles.secondaryActions} aria-hidden="true">

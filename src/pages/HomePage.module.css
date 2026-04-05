@@ -84,12 +84,25 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 8px;
+  text-align: center;
 }
 
 .primaryTitle {
   font-size: clamp(2.4rem, 5vw, 4rem);
   line-height: 1;
   font-weight: 800;
+}
+
+.primarySubtitle {
+  font-size: clamp(1.05rem, 1.8vw, 1.35rem);
+  line-height: 1.25;
+  color: rgba(255, 248, 238, 0.92);
+}
+
+.primaryMeta {
+  font-size: clamp(0.92rem, 1.5vw, 1.05rem);
+  color: rgba(255, 241, 224, 0.82);
 }
 
 .secondaryCard {

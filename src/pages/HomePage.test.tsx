@@ -21,6 +21,7 @@ vi.mock('@/hooks/audio', () => ({
 function renderHomeWithRouter() {
   const router = createMemoryRouter([
     { path: '/', element: <HomePage /> },
+    { path: '/vocab/:unitId/recognition/:index', element: <div>recognition-page</div> },
     { path: '/settings', element: <div>settings-page</div> },
   ], {
     initialEntries: ['/'],
@@ -75,6 +76,32 @@ describe('HomePage', () => {
     await user.click(screen.getByRole('button', { name: '設定' }));
 
     expect(await screen.findByText('settings-page')).toBeInTheDocument();
+  });
+
+  it('continues learning from history when the primary button is pressed', async () => {
+    const user = userEvent.setup();
+
+    localStorage.setItem('learnzhtw-progress', JSON.stringify({
+      learnedZhuyin: [],
+      learnedVocab: ['一'],
+      totalCompleted: 1,
+    }));
+
+    renderHomeWithRouter();
+
+    await user.click(screen.getByRole('button', { name: '繼續學習' }));
+
+    expect(await screen.findByText('recognition-page')).toBeInTheDocument();
+  });
+
+  it('opens the topic menu from the second button', async () => {
+    const user = userEvent.setup();
+
+    renderHomeWithRouter();
+
+    await user.click(screen.getByRole('button', { name: '查看主題' }));
+
+    expect(await screen.findByText('選擇主題')).toBeInTheDocument();
   });
 
   it('shows manual iPhone install instructions when no native install prompt is available', async () => {
