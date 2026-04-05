@@ -13,8 +13,8 @@ export const healthUnit: VocabUnit = {
       pronunciation: '口',
       imageRef: '/images/vocab/health/kou.webp',
       order: 0,
-      contextWord: '嘴口',
-      contextPronunciation: '嘴口',
+      contextWord: '嘴巴',
+      contextPronunciation: '嘴巴',
     },
     {
       character: '手',
