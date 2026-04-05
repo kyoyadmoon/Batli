@@ -26,15 +26,21 @@ THIRD-PARTY NOTICES
 
 This project includes or references the following third-party resources:
 
-1. Taiwanese Audio Files (public/audio/tai/)
+1. App Icon Files (public/icons/)
+   Source: Google Noto Emoji (https://github.com/googlefonts/noto-emoji)
+   Asset used: emoji_u1f4d6.svg
+   License: Apache License 2.0
+   See: THIRD_PARTY_NOTICES.md
+
+2. Taiwanese Audio Files (public/audio/tai/)
    Source: 教育部《臺灣台語常用詞辭典》 (https://sutian.moe.edu.tw)
    License: CC BY-ND 3.0 Taiwan
    See: public/audio/tai/LICENSE
 
-2. Hanzi Writer
+3. Hanzi Writer
    Source: https://hanziwriter.org/
    License: MIT
 
-3. Character Stroke Data (loaded at runtime from CDN)
+4. Character Stroke Data (loaded at runtime from CDN)
    Source: Make Me a Hanzi (https://github.com/skishore/makemeahanzi)
    License: LGPL-3.0 / CC BY-SA 4.0

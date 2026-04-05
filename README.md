@@ -74,7 +74,7 @@ Generated support files are intentionally gitignored:
 
 Source code is licensed under the [MIT License](LICENSE).
 
-Third-party resources are subject to their own licenses — see below.
+Third-party resources are subject to their own licenses — see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ## Credits & Third-Party Licenses
 
@@ -90,6 +90,15 @@ Licensed under [CC BY-ND 3.0 Taiwan](https://creativecommons.org/licenses/by-nd/
 All audio files included in this project are unmodified originals, redistributed in compliance with the license.
 
 See [`public/audio/tai/LICENSE`](public/audio/tai/LICENSE) for details.
+
+### App Icon
+
+App icon files in [`public/icons/`](public/icons/) are modified derivatives of Google Noto Emoji open book artwork (`emoji_u1f4d6.svg`).
+
+- Source: [googlefonts/noto-emoji](https://github.com/googlefonts/noto-emoji)
+- License: [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
+See [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) for the exact source reference and affected files.
 
 ### Character Stroke Data
 
