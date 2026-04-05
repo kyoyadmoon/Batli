@@ -46,6 +46,7 @@ export interface UseHanziWriterOptions {
   strokeAnimationSpeed?: number;
   strokeHighlightSpeed?: number;
   delayBetweenStrokes?: number;
+  quizHintAfterMisses?: number;
 }
 
 interface StrokeData {
@@ -84,6 +85,7 @@ export function useHanziWriter(
     strokeAnimationSpeed = 1,
     strokeHighlightSpeed = 1,
     delayBetweenStrokes =300,
+    quizHintAfterMisses = 2,
   } = options;
   const strokeColor = options.strokeColor ?? readCssToken('--color-text', '#333333');
   const outlineColor = options.outlineColor ?? readCssToken('--color-border-subtle', '#dddddd');
@@ -156,14 +158,14 @@ export function useHanziWriter(
       ready.then(() => {
         if (!writerRef.current) return;
         writerRef.current.quiz({
-          showHintAfterMisses: 2,
+          showHintAfterMisses: quizHintAfterMisses,
           onCorrectStroke: callbacks?.onCorrectStroke as never,
           onMistake: callbacks?.onMistake as never,
           onComplete: callbacks?.onComplete as never,
         });
       });
     },
-    [],
+    [quizHintAfterMisses],
   );
 
   return { containerRef, animate, quiz, stop };

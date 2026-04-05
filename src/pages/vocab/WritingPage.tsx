@@ -11,6 +11,8 @@ import { NavBar } from '@/components/NavBar';
 import styles from './VocabPage.module.css';
 
 const WRITING_HINT_HIGHLIGHT_SPEED = 1;
+const PRACTICE_HINT_AFTER_MISSES = 0;
+const RECALL_HINT_AFTER_MISSES = 2;
 
 function getWritingCanvasSize(): number {
   if (typeof window === 'undefined') return 320;
@@ -35,6 +37,7 @@ export function WritingPage() {
   const [completed, setCompleted] = useState(false);
   const [canvasSize, setCanvasSize] = useState(getWritingCanvasSize);
   const [practiceRound, setPracticeRound] = useState(0);
+  const [quizHintAfterMisses, setQuizHintAfterMisses] = useState(PRACTICE_HINT_AFTER_MISSES);
   const titleText = uiText('寫一寫');
   const guideButtonText = uiText('播放筆順');
   const practiceButtonText = uiText('練習');
@@ -87,6 +90,7 @@ export function WritingPage() {
     cancelAll();
     setCompleted(false);
     setHideOutline(false);
+    setQuizHintAfterMisses(PRACTICE_HINT_AFTER_MISSES);
     setPracticeRound((current) => current + 1);
     setMode('animate');
   }, [cancelAll]);
@@ -95,6 +99,7 @@ export function WritingPage() {
     cancelAll();
     setCompleted(false);
     setHideOutline(false);
+    setQuizHintAfterMisses(PRACTICE_HINT_AFTER_MISSES);
     setPracticeRound((current) => current + 1);
     setMode('quiz');
   }, [cancelAll]);
@@ -103,6 +108,7 @@ export function WritingPage() {
     cancelAll();
     setCompleted(false);
     setHideOutline(true);
+    setQuizHintAfterMisses(RECALL_HINT_AFTER_MISSES);
     setPracticeRound((current) => current + 1);
     setMode('quiz');
   }, [cancelAll]);
@@ -130,6 +136,7 @@ export function WritingPage() {
               height: canvasSize,
               strokeHighlightSpeed: WRITING_HINT_HIGHLIGHT_SPEED,
               showOutline: !hideOutline,
+              quizHintAfterMisses,
             }}
           />
         </div>
